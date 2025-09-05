@@ -1,0 +1,24 @@
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: nginx-ingress
+  namespace: crong
+  annotations:
+    kubernetes.io/ingress.class: nginx
+    
+spec:
+  tls:
+    - hosts:
+      - "server.crong94.shop"
+      secretName: server-crong94-shop-tls
+  rules:
+    - host: server.crong94.shop
+      http:
+        paths:
+          - path: /
+            pathType: Prefix
+            backend:
+              service:
+                name: ordersystem-service
+                port:
+                  number: 80
