@@ -40,7 +40,7 @@ jobs:
         run: |
           docker build \
           -t $REGISTRY/$REPOSITORY:$IMAGE_TAG \
-          -f ./3.msa/apigateway ./3.msa
+          -f ./3.msa/apigateway/Dockerfile ./3.msa/apigateway
           docker push $REGISTRY/$REPOSITORY:$IMAGE_TAG
 
       - name: eks kubectl apply api
@@ -55,7 +55,7 @@ jobs:
         run: |
           docker build \
           -t $REGISTRY/$REPOSITORY:$IMAGE_TAG \
-          -f ./3.msa/member ./3.msa
+          -f ./3.msa/member/Dockerfile ./3.msa/member
           docker push $REGISTRY/$REPOSITORY:$IMAGE_TAG
 
       - name: eks kubectl apply member
@@ -70,7 +70,7 @@ jobs:
         run: |
           docker build \
           -t $REGISTRY/$REPOSITORY:$IMAGE_TAG \
-          -f ./3.msa/ordering ./3.msa
+          -f ./3.msa/ordering/Dockerfile ./3.msa/ordering
           docker push $REGISTRY/$REPOSITORY:$IMAGE_TAG
 
       - name: eks kubectl apply ordering
@@ -85,7 +85,7 @@ jobs:
         run: |
           docker build \
           -t $REGISTRY/$REPOSITORY:$IMAGE_TAG \
-          -f ./3.msa/product ./3.msa
+          -f ./3.msa/product/Dockerfile ./3.msa/product
           docker push $REGISTRY/$REPOSITORY:$IMAGE_TAG
 
       - name: eks kubectl apply product
