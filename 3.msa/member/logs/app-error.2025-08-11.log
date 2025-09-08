@@ -1,0 +1,91 @@
+2025-08-223 09:25 o.s.a.r.l.SimpleMessageListenerContainer-Failed to check/redeclare auto-delete queue(s).
+org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused
+	at org.springframework.amqp.rabbit.support.RabbitExceptionTranslator.convertRabbitAccessException(RabbitExceptionTranslator.java:61)
+	at org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.createBareConnection(AbstractConnectionFactory.java:632)
+	at org.springframework.amqp.rabbit.connection.CachingConnectionFactory.createConnection(CachingConnectionFactory.java:726)
+	at org.springframework.amqp.rabbit.connection.ConnectionFactoryUtils.createConnection(ConnectionFactoryUtils.java:257)
+	at org.springframework.amqp.rabbit.core.RabbitTemplate.doExecute(RabbitTemplate.java:2262)
+	at org.springframework.amqp.rabbit.core.RabbitTemplate.execute(RabbitTemplate.java:2235)
+	at org.springframework.amqp.rabbit.core.RabbitTemplate.execute(RabbitTemplate.java:2215)
+	at org.springframework.amqp.rabbit.core.RabbitAdmin.getQueueInfo(RabbitAdmin.java:467)
+	at org.springframework.amqp.rabbit.core.RabbitAdmin.getQueueProperties(RabbitAdmin.java:451)
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.attemptDeclarations(AbstractMessageListenerContainer.java:1972)
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.redeclareElementsIfNecessary(AbstractMessageListenerContainer.java:1936)
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer$AsyncMessageProcessingConsumer.initialize(SimpleMessageListenerContainer.java:1481)
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer$AsyncMessageProcessingConsumer.run(SimpleMessageListenerContainer.java:1322)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+Caused by: java.net.ConnectException: Connection refused
+	at java.base/sun.nio.ch.Net.pollConnect(Native Method)
+	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:672)
+	at java.base/sun.nio.ch.NioSocketImpl.timedFinishConnect(NioSocketImpl.java:554)
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:602)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327)
+	at java.base/java.net.Socket.connect(Socket.java:633)
+	at com.rabbitmq.client.impl.SocketFrameHandlerFactory.create(SocketFrameHandlerFactory.java:61)
+	at com.rabbitmq.client.ConnectionFactory.newConnection(ConnectionFactory.java:1249)
+	at com.rabbitmq.client.ConnectionFactory.newConnection(ConnectionFactory.java:1198)
+	at com.rabbitmq.client.ConnectionFactory.newConnection(ConnectionFactory.java:1369)
+	at org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.connectHostPort(AbstractConnectionFactory.java:695)
+	at org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.connect(AbstractConnectionFactory.java:650)
+	at org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.createBareConnection(AbstractConnectionFactory.java:593)
+	... 12 common frames omitted
+2025-08-223 09:25 o.s.a.r.l.SimpleMessageListenerContainer-Failed to check/redeclare auto-delete queue(s).
+2025-08-223 09:25 o.s.a.r.l.SimpleMessageListenerContainer-Failed to check/redeclare auto-delete queue(s).
+2025-08-223 09:26 o.s.a.r.l.SimpleMessageListenerContainer-Failed to check/redeclare auto-delete queue(s).
+2025-08-223 09:26 o.s.a.r.l.SimpleMessageListenerContainer-Failed to check/redeclare auto-delete queue(s).
+2025-08-223 09:26 o.s.a.r.l.SimpleMessageListenerContainer-Failed to check/redeclare auto-delete queue(s).
+2025-08-223 09:26 o.s.a.r.l.SimpleMessageListenerContainer-Failed to check/redeclare auto-delete queue(s).
+2025-08-223 09:26 o.s.a.r.l.SimpleMessageListenerContainer-Failed to check/redeclare auto-delete queue(s).
+2025-08-223 09:26 o.s.a.r.l.SimpleMessageListenerContainer-Failed to check/redeclare auto-delete queue(s).
+2025-08-223 09:26 o.s.a.r.l.SimpleMessageListenerContainer-Failed to check/redeclare auto-delete queue(s).
+2025-08-223 09:39 c.b.o.c.s.CommonExceptionHandler-비밀번호가 너무 짧습니다.
+2025-08-223 10:09 c.b.o.c.s.CommonExceptionHandler-비밀번호가이 비어있습니다.
+2025-08-223 10:09 c.b.o.c.s.CommonExceptionHandler-비밀번호가 너무 짧습니다.
+2025-08-223 10:10 c.b.o.c.s.CommonExceptionHandler-비밀번호가 틀렸습니다.
+2025-08-223 10:28 c.b.o.c.auth.JwtAutenticationHandler-eunsungErrorFull authentication is required to access this resource
+2025-08-223 10:28 c.b.o.c.auth.JwtAutenticationHandler-eunsungErrorFull authentication is required to access this resource
+2025-08-223 10:29 c.b.o.c.auth.JwtAutenticationHandler-eunsungErrorFull authentication is required to access this resource
+2025-08-223 10:29 c.b.o.c.auth.JwtAutenticationHandler-eunsungErrorFull authentication is required to access this resource
+2025-08-223 10:30 c.b.o.c.auth.JwtAutenticationHandler-eunsungErrorFull authentication is required to access this resource
+2025-08-223 10:30 c.b.o.c.auth.JwtAutenticationHandler-eunsungErrorFull authentication is required to access this resource
+2025-08-223 10:30 c.b.o.c.auth.JwtAutenticationHandler-eunsungErrorFull authentication is required to access this resource
+2025-08-223 10:30 c.b.o.c.auth.JwtAutenticationHandler-eunsungErrorFull authentication is required to access this resource
+2025-08-223 10:30 c.b.o.c.auth.JwtAutenticationHandler-eunsungErrorFull authentication is required to access this resource
+2025-08-223 10:30 c.b.o.c.auth.JwtAutenticationHandler-eunsungErrorFull authentication is required to access this resource
+2025-08-223 10:30 c.b.o.c.auth.JwtAutenticationHandler-eunsungErrorFull authentication is required to access this resource
+2025-08-223 10:30 c.b.o.c.auth.JwtAutenticationHandler-eunsungErrorFull authentication is required to access this resource
+2025-08-223 10:30 c.b.o.c.auth.JwtAutenticationHandler-eunsungErrorFull authentication is required to access this resource
+2025-08-223 10:30 c.b.o.c.auth.JwtAutenticationHandler-eunsungErrorFull authentication is required to access this resource
+2025-08-223 10:32 c.b.o.c.auth.JwtAutenticationHandler-eunsungErrorFull authentication is required to access this resource
+2025-08-223 10:34 c.b.o.c.auth.JwtAutenticationHandler-eunsungErrorFull authentication is required to access this resource
+2025-08-223 11:22 c.b.o.common.auth.JwtTokenFilter-JWT expired at 2025-08-08T00:28:07Z. Current time: 2025-08-11T02:22:51Z, a difference of 266084318 milliseconds.  Allowed clock skew: 0 milliseconds.
+2025-08-223 11:22 c.b.o.c.auth.JwtAutenticationHandler-eunsungErrorFull authentication is required to access this resource
+2025-08-223 11:32 c.b.o.common.auth.JwtTokenFilter-JWT strings must contain exactly 2 period characters. Found: 0
+2025-08-223 11:32 c.b.o.c.auth.JwtAutenticationHandler-eunsungErrorFull authentication is required to access this resource
+2025-08-223 12:32 c.b.o.c.auth.JwtAutenticationHandler-eunsungErrorFull authentication is required to access this resource
+2025-08-223 12:32 c.b.o.c.s.CommonExceptionHandler-JWT String argument cannot be null or empty.
+2025-08-223 12:33 c.b.o.common.auth.JwtTokenFilter-JWT expired at 2025-08-11T03:33:25Z. Current time: 2025-08-11T03:33:26Z, a difference of 1374 milliseconds.  Allowed clock skew: 0 milliseconds.
+2025-08-223 12:33 c.b.o.c.auth.JwtAutenticationHandler-eunsungErrorFull authentication is required to access this resource
+2025-08-223 12:33 c.b.o.common.auth.JwtTokenFilter-JWT expired at 2025-08-11T03:33:25Z. Current time: 2025-08-11T03:33:26Z, a difference of 1392 milliseconds.  Allowed clock skew: 0 milliseconds.
+2025-08-223 12:33 c.b.o.common.auth.JwtTokenFilter-JWT expired at 2025-08-11T03:33:25Z. Current time: 2025-08-11T03:33:26Z, a difference of 1394 milliseconds.  Allowed clock skew: 0 milliseconds.
+2025-08-223 12:34 c.b.o.common.auth.JwtTokenFilter-JWT expired at 2025-08-11T03:34:26Z. Current time: 2025-08-11T03:34:31Z, a difference of 5856 milliseconds.  Allowed clock skew: 0 milliseconds.
+2025-08-223 12:34 c.b.o.c.auth.JwtAutenticationHandler-eunsungErrorFull authentication is required to access this resource
+2025-08-223 12:34 c.b.o.common.auth.JwtTokenFilter-JWT expired at 2025-08-11T03:34:26Z. Current time: 2025-08-11T03:34:31Z, a difference of 5897 milliseconds.  Allowed clock skew: 0 milliseconds.
+2025-08-223 12:34 c.b.o.common.auth.JwtTokenFilter-JWT expired at 2025-08-11T03:34:26Z. Current time: 2025-08-11T03:34:31Z, a difference of 5904 milliseconds.  Allowed clock skew: 0 milliseconds.
+2025-08-223 12:35 c.b.o.common.auth.JwtTokenFilter-JWT expired at 2025-08-11T03:35:31Z. Current time: 2025-08-11T03:35:38Z, a difference of 7319 milliseconds.  Allowed clock skew: 0 milliseconds.
+2025-08-223 12:35 c.b.o.c.auth.JwtAutenticationHandler-eunsungErrorFull authentication is required to access this resource
+2025-08-223 12:35 c.b.o.common.auth.JwtTokenFilter-JWT expired at 2025-08-11T03:35:31Z. Current time: 2025-08-11T03:35:38Z, a difference of 7329 milliseconds.  Allowed clock skew: 0 milliseconds.
+2025-08-223 12:35 c.b.o.common.auth.JwtTokenFilter-JWT expired at 2025-08-11T03:35:31Z. Current time: 2025-08-11T03:35:38Z, a difference of 7331 milliseconds.  Allowed clock skew: 0 milliseconds.
+2025-08-223 12:36 c.b.o.common.auth.JwtTokenFilter-JWT expired at 2025-08-11T03:36:38Z. Current time: 2025-08-11T03:36:58Z, a difference of 20204 milliseconds.  Allowed clock skew: 0 milliseconds.
+2025-08-223 12:36 c.b.o.c.auth.JwtAutenticationHandler-eunsungErrorFull authentication is required to access this resource
+2025-08-223 12:36 c.b.o.common.auth.JwtTokenFilter-JWT expired at 2025-08-11T03:36:38Z. Current time: 2025-08-11T03:36:58Z, a difference of 20214 milliseconds.  Allowed clock skew: 0 milliseconds.
+2025-08-223 12:36 c.b.o.common.auth.JwtTokenFilter-JWT expired at 2025-08-11T03:36:38Z. Current time: 2025-08-11T03:36:58Z, a difference of 20215 milliseconds.  Allowed clock skew: 0 milliseconds.
+2025-08-223 14:16 c.b.o.common.auth.JwtTokenFilter-JWT expired at 2025-08-11T03:37:58Z. Current time: 2025-08-11T05:16:52Z, a difference of 5934509 milliseconds.  Allowed clock skew: 0 milliseconds.
+2025-08-223 14:16 c.b.o.c.auth.JwtAutenticationHandler-eunsungErrorFull authentication is required to access this resource
+2025-08-223 14:16 c.b.o.common.auth.JwtTokenFilter-JWT expired at 2025-08-11T03:37:58Z. Current time: 2025-08-11T05:16:52Z, a difference of 5934540 milliseconds.  Allowed clock skew: 0 milliseconds.
+2025-08-223 14:16 c.b.o.common.auth.JwtTokenFilter-JWT expired at 2025-08-11T03:37:58Z. Current time: 2025-08-11T05:16:52Z, a difference of 5934541 milliseconds.  Allowed clock skew: 0 milliseconds.
+2025-08-223 14:20 c.b.o.c.auth.JwtAutenticationHandler-eunsungErrorFull authentication is required to access this resource
+2025-08-223 14:20 c.b.o.c.s.CommonExceptionHandler-JWT String argument cannot be null or empty.
+2025-08-223 15:10 c.b.o.c.auth.JwtAutenticationHandler-eunsungErrorFull authentication is required to access this resource
+2025-08-223 15:10 c.b.o.c.s.CommonExceptionHandler-JWT String argument cannot be null or empty.
+2025-08-223 15:57 c.b.o.c.auth.JwtAutenticationHandler-eunsungErrorFull authentication is required to access this resource

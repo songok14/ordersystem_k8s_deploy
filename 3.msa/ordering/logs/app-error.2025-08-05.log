@@ -1,0 +1,179 @@
+2025-08-217 14:07 o.s.b.d.LoggingFailureAnalysisReporter-
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+2025-08-217 14:07 o.s.b.d.LoggingFailureAnalysisReporter-
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+2025-08-217 14:08 c.b.o.common.auth.JwtTokenFilter-JWT expired at 2025-08-04T01:13:17Z. Current time: 2025-08-05T05:08:55Z, a difference of 100538505 milliseconds.  Allowed clock skew: 0 milliseconds.
+2025-08-217 14:08 c.b.o.c.auth.JwtAutenticationHandler-eunsungErrorFull authentication is required to access this resource
+2025-08-217 14:12 o.h.e.jdbc.spi.SqlExceptionHelper-(conn=3897) Record has changed since last read in table 'order_detail'
+2025-08-217 14:12 o.h.e.jdbc.spi.SqlExceptionHelper-(conn=3898) Record has changed since last read in table 'order_detail'
+2025-08-217 14:12 o.h.e.jdbc.spi.SqlExceptionHelper-(conn=3895) Record has changed since last read in table 'order_detail'
+2025-08-217 14:12 o.h.e.jdbc.spi.SqlExceptionHelper-(conn=3904) Record has changed since last read in table 'order_detail'
+2025-08-217 14:12 o.h.e.jdbc.spi.SqlExceptionHelper-(conn=3896) Record has changed since last read in table 'order_detail'
+2025-08-217 14:12 o.h.e.jdbc.spi.SqlExceptionHelper-(conn=3900) Record has changed since last read in table 'order_detail'
+2025-08-217 14:12 o.h.e.jdbc.spi.SqlExceptionHelper-(conn=3904) Record has changed since last read in table 'order_detail'
+2025-08-217 14:12 o.h.e.jdbc.spi.SqlExceptionHelper-(conn=3897) Record has changed since last read in table 'order_detail'
+2025-08-217 14:12 o.h.e.jdbc.spi.SqlExceptionHelper-(conn=3902) Record has changed since last read in table 'order_detail'
+2025-08-217 14:12 o.h.e.jdbc.spi.SqlExceptionHelper-(conn=3903) Record has changed since last read in table 'order_detail'
+2025-08-217 14:12 o.h.e.jdbc.spi.SqlExceptionHelper-(conn=3897) Record has changed since last read in table 'order_detail'
+2025-08-217 14:12 o.h.e.jdbc.spi.SqlExceptionHelper-(conn=3900) Record has changed since last read in table 'order_detail'
+2025-08-217 14:12 o.h.e.jdbc.spi.SqlExceptionHelper-(conn=3901) Record has changed since last read in table 'order_detail'
+2025-08-217 14:12 o.h.e.jdbc.spi.SqlExceptionHelper-(conn=3904) Record has changed since last read in table 'order_detail'
+2025-08-217 14:12 o.h.e.jdbc.spi.SqlExceptionHelper-(conn=3896) Record has changed since last read in table 'order_detail'
+2025-08-217 14:12 o.h.e.jdbc.spi.SqlExceptionHelper-(conn=3898) Record has changed since last read in table 'order_detail'
+2025-08-217 14:12 o.h.e.jdbc.spi.SqlExceptionHelper-(conn=3902) Record has changed since last read in table 'order_detail'
+2025-08-217 14:12 o.h.e.jdbc.spi.SqlExceptionHelper-(conn=3895) Record has changed since last read in table 'order_detail'
+2025-08-217 14:12 o.h.e.jdbc.spi.SqlExceptionHelper-(conn=3897) Record has changed since last read in table 'order_detail'
+2025-08-217 14:12 o.h.e.jdbc.spi.SqlExceptionHelper-(conn=3902) Record has changed since last read in table 'order_detail'
+2025-08-217 14:12 o.h.e.jdbc.spi.SqlExceptionHelper-(conn=3901) Record has changed since last read in table 'order_detail'
+2025-08-217 14:12 o.h.e.jdbc.spi.SqlExceptionHelper-(conn=3895) Record has changed since last read in table 'order_detail'
+2025-08-217 14:12 o.h.e.jdbc.spi.SqlExceptionHelper-(conn=3897) Record has changed since last read in table 'order_detail'
+2025-08-217 14:12 o.h.e.jdbc.spi.SqlExceptionHelper-(conn=3898) Record has changed since last read in table 'order_detail'
+2025-08-217 14:12 o.h.e.jdbc.spi.SqlExceptionHelper-(conn=3903) Record has changed since last read in table 'order_detail'
+2025-08-217 14:12 o.h.e.jdbc.spi.SqlExceptionHelper-(conn=3899) Record has changed since last read in table 'order_detail'
+2025-08-217 14:12 o.h.e.jdbc.spi.SqlExceptionHelper-(conn=3900) Record has changed since last read in table 'order_detail'
+2025-08-217 14:12 o.h.e.jdbc.spi.SqlExceptionHelper-(conn=3904) Record has changed since last read in table 'order_detail'
+2025-08-217 14:12 o.h.e.jdbc.spi.SqlExceptionHelper-(conn=3901) Record has changed since last read in table 'order_detail'
+2025-08-217 14:12 o.h.e.jdbc.spi.SqlExceptionHelper-(conn=3896) Record has changed since last read in table 'order_detail'
+2025-08-217 14:13 o.h.e.jdbc.spi.SqlExceptionHelper-(conn=3905) Record has changed since last read in table 'order_detail'
+2025-08-217 14:13 o.h.e.jdbc.spi.SqlExceptionHelper-(conn=3907) Record has changed since last read in table 'order_detail'
+2025-08-217 14:13 o.h.e.jdbc.spi.SqlExceptionHelper-(conn=3914) Record has changed since last read in table 'order_detail'
+2025-08-217 14:13 o.h.e.jdbc.spi.SqlExceptionHelper-(conn=3906) Record has changed since last read in table 'order_detail'
+2025-08-217 14:13 o.h.e.jdbc.spi.SqlExceptionHelper-(conn=3909) Record has changed since last read in table 'order_detail'
+2025-08-217 14:13 o.h.e.jdbc.spi.SqlExceptionHelper-(conn=3913) Record has changed since last read in table 'order_detail'
+2025-08-217 14:13 o.h.e.jdbc.spi.SqlExceptionHelper-(conn=3905) Record has changed since last read in table 'order_detail'
+2025-08-217 14:13 o.h.e.jdbc.spi.SqlExceptionHelper-(conn=3906) Record has changed since last read in table 'order_detail'
+2025-08-217 14:13 o.h.e.jdbc.spi.SqlExceptionHelper-(conn=3912) Record has changed since last read in table 'order_detail'
+2025-08-217 14:13 o.h.e.jdbc.spi.SqlExceptionHelper-(conn=3908) Record has changed since last read in table 'order_detail'
+2025-08-217 14:13 o.h.e.jdbc.spi.SqlExceptionHelper-(conn=3911) Record has changed since last read in table 'order_detail'
+2025-08-217 14:13 o.h.e.jdbc.spi.SqlExceptionHelper-(conn=3905) Record has changed since last read in table 'order_detail'
+2025-08-217 14:13 o.h.e.jdbc.spi.SqlExceptionHelper-(conn=3907) Record has changed since last read in table 'order_detail'
+2025-08-217 14:13 o.h.e.jdbc.spi.SqlExceptionHelper-(conn=3914) Record has changed since last read in table 'order_detail'
+2025-08-217 14:13 o.h.e.jdbc.spi.SqlExceptionHelper-(conn=3906) Record has changed since last read in table 'order_detail'
+2025-08-217 14:13 o.h.e.jdbc.spi.SqlExceptionHelper-(conn=3905) Record has changed since last read in table 'order_detail'
+2025-08-217 14:13 o.h.e.jdbc.spi.SqlExceptionHelper-(conn=3905) Record has changed since last read in table 'order_detail'
+2025-08-217 14:13 o.h.e.jdbc.spi.SqlExceptionHelper-(conn=3909) Record has changed since last read in table 'order_detail'
+2025-08-217 14:13 o.h.e.jdbc.spi.SqlExceptionHelper-(conn=3905) Record has changed since last read in table 'order_detail'
+2025-08-217 14:13 o.h.e.jdbc.spi.SqlExceptionHelper-(conn=3906) Record has changed since last read in table 'order_detail'
+2025-08-217 14:13 o.h.e.jdbc.spi.SqlExceptionHelper-(conn=3908) Record has changed since last read in table 'order_detail'
+2025-08-217 14:13 o.h.e.jdbc.spi.SqlExceptionHelper-(conn=3907) Record has changed since last read in table 'order_detail'
+2025-08-217 14:13 o.h.e.jdbc.spi.SqlExceptionHelper-(conn=3906) Record has changed since last read in table 'order_detail'
+2025-08-217 14:13 o.h.e.jdbc.spi.SqlExceptionHelper-(conn=3911) Record has changed since last read in table 'order_detail'
+2025-08-217 14:13 o.h.e.jdbc.spi.SqlExceptionHelper-(conn=3905) Record has changed since last read in table 'order_detail'
+2025-08-217 14:17 o.h.e.jdbc.spi.SqlExceptionHelper-(conn=3929) Record has changed since last read in table 'order_detail'
+2025-08-217 14:17 o.h.e.jdbc.spi.SqlExceptionHelper-(conn=3927) Record has changed since last read in table 'order_detail'
+2025-08-217 14:17 o.h.e.jdbc.spi.SqlExceptionHelper-(conn=3930) Record has changed since last read in table 'order_detail'
+2025-08-217 14:17 o.h.e.jdbc.spi.SqlExceptionHelper-(conn=3925) Record has changed since last read in table 'order_detail'
+2025-08-217 14:17 o.h.e.jdbc.spi.SqlExceptionHelper-(conn=3934) Record has changed since last read in table 'order_detail'
+2025-08-217 14:17 o.h.e.jdbc.spi.SqlExceptionHelper-(conn=3926) Record has changed since last read in table 'order_detail'
+2025-08-217 14:17 o.h.e.jdbc.spi.SqlExceptionHelper-(conn=3931) Record has changed since last read in table 'order_detail'
+2025-08-217 14:17 o.h.e.jdbc.spi.SqlExceptionHelper-(conn=3925) Record has changed since last read in table 'order_detail'
+2025-08-217 14:17 o.h.e.jdbc.spi.SqlExceptionHelper-(conn=3926) Record has changed since last read in table 'order_detail'
+2025-08-217 14:17 o.h.e.jdbc.spi.SqlExceptionHelper-(conn=3926) Record has changed since last read in table 'order_detail'
+2025-08-217 14:17 o.h.e.jdbc.spi.SqlExceptionHelper-(conn=3925) Record has changed since last read in table 'order_detail'
+2025-08-217 14:17 o.h.e.jdbc.spi.SqlExceptionHelper-(conn=3932) Record has changed since last read in table 'order_detail'
+2025-08-217 14:17 o.h.e.jdbc.spi.SqlExceptionHelper-(conn=3933) Record has changed since last read in table 'order_detail'
+2025-08-217 14:17 o.h.e.jdbc.spi.SqlExceptionHelper-(conn=3930) Record has changed since last read in table 'order_detail'
+2025-08-217 14:17 o.h.e.jdbc.spi.SqlExceptionHelper-(conn=3929) Record has changed since last read in table 'order_detail'
+2025-08-217 14:17 o.h.e.jdbc.spi.SqlExceptionHelper-(conn=3927) Record has changed since last read in table 'order_detail'
+2025-08-217 14:17 o.h.e.jdbc.spi.SqlExceptionHelper-(conn=3925) Record has changed since last read in table 'order_detail'
+2025-08-217 14:17 o.h.e.jdbc.spi.SqlExceptionHelper-(conn=3934) Record has changed since last read in table 'order_detail'
+2025-08-217 14:17 o.h.e.jdbc.spi.SqlExceptionHelper-(conn=3925) Record has changed since last read in table 'order_detail'
+2025-08-217 14:17 o.h.e.jdbc.spi.SqlExceptionHelper-(conn=3925) Record has changed since last read in table 'order_detail'
+2025-08-217 14:17 o.h.e.jdbc.spi.SqlExceptionHelper-(conn=3933) Record has changed since last read in table 'order_detail'
+2025-08-217 14:17 o.h.e.jdbc.spi.SqlExceptionHelper-(conn=3926) Record has changed since last read in table 'order_detail'
+2025-08-217 14:17 o.h.e.jdbc.spi.SqlExceptionHelper-(conn=3933) Record has changed since last read in table 'order_detail'
+2025-08-217 14:17 o.h.e.jdbc.spi.SqlExceptionHelper-(conn=3932) Record has changed since last read in table 'order_detail'
+2025-08-217 14:17 o.h.e.jdbc.spi.SqlExceptionHelper-(conn=3926) Record has changed since last read in table 'order_detail'
+2025-08-217 14:17 o.h.e.jdbc.spi.SqlExceptionHelper-(conn=3931) Record has changed since last read in table 'order_detail'
+2025-08-217 14:17 o.h.e.jdbc.spi.SqlExceptionHelper-(conn=3925) Record has changed since last read in table 'order_detail'
+2025-08-217 14:17 o.h.e.jdbc.spi.SqlExceptionHelper-(conn=3930) Record has changed since last read in table 'order_detail'
+2025-08-217 14:17 o.h.e.jdbc.spi.SqlExceptionHelper-(conn=3926) Record has changed since last read in table 'order_detail'
+2025-08-217 14:17 o.h.e.jdbc.spi.SqlExceptionHelper-(conn=3925) Record has changed since last read in table 'order_detail'
+2025-08-217 14:17 o.h.e.jdbc.spi.SqlExceptionHelper-(conn=3925) Record has changed since last read in table 'order_detail'
+2025-08-217 14:17 o.h.e.jdbc.spi.SqlExceptionHelper-(conn=3927) Record has changed since last read in table 'order_detail'
+2025-08-217 15:27 o.s.b.d.LoggingFailureAnalysisReporter-
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+2025-08-217 15:28 o.h.e.jdbc.spi.SqlExceptionHelper-(conn=3967) Deadlock found when trying to get lock; try restarting transaction
+2025-08-217 15:28 o.h.e.jdbc.spi.SqlExceptionHelper-(conn=3966) Deadlock found when trying to get lock; try restarting transaction
+2025-08-217 15:28 o.h.e.jdbc.spi.SqlExceptionHelper-(conn=3965) Deadlock found when trying to get lock; try restarting transaction
+2025-08-217 15:28 o.h.e.jdbc.spi.SqlExceptionHelper-(conn=3968) Deadlock found when trying to get lock; try restarting transaction
+2025-08-217 15:28 o.h.e.jdbc.spi.SqlExceptionHelper-(conn=3971) Deadlock found when trying to get lock; try restarting transaction
+2025-08-217 15:28 o.h.e.jdbc.spi.SqlExceptionHelper-(conn=3969) Deadlock found when trying to get lock; try restarting transaction
+2025-08-217 15:28 o.h.e.jdbc.spi.SqlExceptionHelper-(conn=3970) Deadlock found when trying to get lock; try restarting transaction
+2025-08-217 15:28 o.h.e.jdbc.spi.SqlExceptionHelper-(conn=3973) Deadlock found when trying to get lock; try restarting transaction
+2025-08-217 15:28 o.h.e.jdbc.spi.SqlExceptionHelper-(conn=3974) Record has changed since last read in table 'order_detail'
+2025-08-217 15:28 o.h.e.jdbc.spi.SqlExceptionHelper-(conn=3965) Record has changed since last read in table 'order_detail'
+2025-08-217 15:28 o.h.e.jdbc.spi.SqlExceptionHelper-(conn=3966) Record has changed since last read in table 'order_detail'
+2025-08-217 15:28 o.h.e.jdbc.spi.SqlExceptionHelper-(conn=3974) Record has changed since last read in table 'order_detail'
+2025-08-217 15:28 o.h.e.jdbc.spi.SqlExceptionHelper-(conn=3967) Record has changed since last read in table 'order_detail'
+2025-08-217 15:28 o.h.e.jdbc.spi.SqlExceptionHelper-(conn=3969) Record has changed since last read in table 'order_detail'
+2025-08-217 15:28 o.h.e.jdbc.spi.SqlExceptionHelper-(conn=3966) Record has changed since last read in table 'order_detail'
+2025-08-217 15:28 o.h.e.jdbc.spi.SqlExceptionHelper-(conn=3967) Record has changed since last read in table 'order_detail'
+2025-08-217 15:29 o.h.e.jdbc.spi.SqlExceptionHelper-(conn=3995) Record has changed since last read in table 'order_detail'
+2025-08-217 15:29 o.h.e.jdbc.spi.SqlExceptionHelper-(conn=3997) Record has changed since last read in table 'order_detail'
+2025-08-217 15:29 o.h.e.jdbc.spi.SqlExceptionHelper-(conn=3996) Record has changed since last read in table 'order_detail'
+2025-08-217 15:29 o.h.e.jdbc.spi.SqlExceptionHelper-(conn=3995) Record has changed since last read in table 'order_detail'
+2025-08-217 15:29 o.h.e.jdbc.spi.SqlExceptionHelper-(conn=3996) Record has changed since last read in table 'order_detail'
+2025-08-217 15:29 o.h.e.jdbc.spi.SqlExceptionHelper-(conn=3995) Record has changed since last read in table 'order_detail'
+2025-08-217 15:29 o.h.e.jdbc.spi.SqlExceptionHelper-(conn=4004) Record has changed since last read in table 'order_detail'
+2025-08-217 15:29 o.h.e.jdbc.spi.SqlExceptionHelper-(conn=4000) Record has changed since last read in table 'order_detail'
+2025-08-217 15:29 o.h.e.jdbc.spi.SqlExceptionHelper-(conn=4002) Record has changed since last read in table 'order_detail'
+2025-08-217 15:29 o.h.e.jdbc.spi.SqlExceptionHelper-(conn=3999) Record has changed since last read in table 'order_detail'
+2025-08-217 15:29 o.h.e.jdbc.spi.SqlExceptionHelper-(conn=4003) Record has changed since last read in table 'order_detail'
+2025-08-217 15:29 o.h.e.jdbc.spi.SqlExceptionHelper-(conn=3997) Record has changed since last read in table 'order_detail'
+2025-08-217 15:29 o.h.e.jdbc.spi.SqlExceptionHelper-(conn=3996) Record has changed since last read in table 'order_detail'
+2025-08-217 15:29 o.h.e.jdbc.spi.SqlExceptionHelper-(conn=4000) Record has changed since last read in table 'order_detail'
+2025-08-217 15:29 o.h.e.jdbc.spi.SqlExceptionHelper-(conn=3999) Record has changed since last read in table 'order_detail'
+2025-08-217 15:29 o.h.e.jdbc.spi.SqlExceptionHelper-(conn=3995) Record has changed since last read in table 'order_detail'
+2025-08-217 15:29 o.h.e.jdbc.spi.SqlExceptionHelper-(conn=3995) Record has changed since last read in table 'order_detail'
+2025-08-217 15:29 o.h.e.jdbc.spi.SqlExceptionHelper-(conn=3996) Record has changed since last read in table 'order_detail'
+2025-08-217 15:29 o.h.e.jdbc.spi.SqlExceptionHelper-(conn=4002) Record has changed since last read in table 'order_detail'
+2025-08-217 15:29 o.h.e.jdbc.spi.SqlExceptionHelper-(conn=3995) Record has changed since last read in table 'order_detail'
+2025-08-217 15:29 o.h.e.jdbc.spi.SqlExceptionHelper-(conn=3996) Record has changed since last read in table 'order_detail'
+2025-08-217 15:29 o.h.e.jdbc.spi.SqlExceptionHelper-(conn=3995) Record has changed since last read in table 'order_detail'
+2025-08-217 15:29 o.h.e.jdbc.spi.SqlExceptionHelper-(conn=3999) Record has changed since last read in table 'order_detail'
+2025-08-217 15:29 o.h.e.jdbc.spi.SqlExceptionHelper-(conn=3995) Record has changed since last read in table 'order_detail'
+2025-08-217 15:29 o.h.e.jdbc.spi.SqlExceptionHelper-(conn=4000) Record has changed since last read in table 'order_detail'
+2025-08-217 15:29 o.h.e.jdbc.spi.SqlExceptionHelper-(conn=3995) Record has changed since last read in table 'order_detail'
+2025-08-217 15:29 o.h.e.jdbc.spi.SqlExceptionHelper-(conn=3995) Record has changed since last read in table 'order_detail'
+2025-08-217 15:29 o.h.e.jdbc.spi.SqlExceptionHelper-(conn=4003) Record has changed since last read in table 'order_detail'
+2025-08-217 15:29 o.h.e.jdbc.spi.SqlExceptionHelper-(conn=3996) Record has changed since last read in table 'order_detail'
+2025-08-217 15:29 o.h.e.jdbc.spi.SqlExceptionHelper-(conn=3999) Record has changed since last read in table 'order_detail'
+2025-08-217 15:29 o.h.e.jdbc.spi.SqlExceptionHelper-(conn=3998) Record has changed since last read in table 'order_detail'
+2025-08-217 15:29 o.h.e.jdbc.spi.SqlExceptionHelper-(conn=3998) Record has changed since last read in table 'order_detail'

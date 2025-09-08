@@ -1,0 +1,6 @@
+2025-08-225 12:05 c.b.o.common.auth.JwtTokenFilter-JWT expired at 2025-08-12T16:56:11Z. Current time: 2025-08-13T03:05:01Z, a difference of 36530288 milliseconds.  Allowed clock skew: 0 milliseconds.
+2025-08-225 12:05 c.b.o.common.auth.JwtTokenFilter-JWT expired at 2025-08-12T16:56:11Z. Current time: 2025-08-13T03:05:01Z, a difference of 36530305 milliseconds.  Allowed clock skew: 0 milliseconds.
+2025-08-225 12:05 c.b.o.common.auth.JwtTokenFilter-JWT expired at 2025-08-12T16:56:11Z. Current time: 2025-08-13T03:05:07Z, a difference of 36536827 milliseconds.  Allowed clock skew: 0 milliseconds.
+2025-08-225 12:05 c.b.o.c.auth.JwtAutenticationHandler-eunsungErrorFull authentication is required to access this resource
+2025-08-225 14:51 c.b.o.c.auth.JwtAutenticationHandler-eunsungErrorFull authentication is required to access this resource
+2025-08-225 14:51 c.b.o.c.s.CommonExceptionHandler-JWT String argument cannot be null or empty.

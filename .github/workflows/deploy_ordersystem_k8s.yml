@@ -26,24 +26,69 @@ jobs:
           aws-region: ap-northeast-2
 
       - name: update cluster infomation
-        run: aws eks update-kubeconfig --name  goosebumse-cluster --region ap-northeast-2
+        run: aws eks update-kubeconfig --name  2team-cluster --region ap-northeast-2
 
       - name: Login to ECR
         id: login-ecr
         uses: aws-actions/amazon-ecr-login@v1
 
-      - name: build and push docker image to ecr
+      - name: build and push docker image to api
         env:
           REGISTRY: 346903264902.dkr.ecr.ap-northeast-2.amazonaws.com
-          REPOSITORY: crong/ordersystem
+          REPOSITORY: crong/apigateway
           IMAGE_TAG: latest
         run: |
           docker build \
           -t $REGISTRY/$REPOSITORY:$IMAGE_TAG \
-          -f ./2.ordersystem/Dockerfile ./2.ordersystem
+          -f ./3.msa/apigateway ./3.msa
           docker push $REGISTRY/$REPOSITORY:$IMAGE_TAG
 
-      - name: eks kubectl apply
+      - name: eks kubectl apply api
         run: |
-          kubectl rollout restart deployment ordersystem-deployment -n crong
-        # kubectl apply -f ./2.ordersystem/k8s/k8s-ordersystem/depl_svc.yml
+          kubectl rollout restart deployment apigateway-depl -n crong
+
+      - name: build and push docker image to member
+        env:
+          REGISTRY: 346903264902.dkr.ecr.ap-northeast-2.amazonaws.com
+          REPOSITORY: crong/member
+          IMAGE_TAG: latest
+        run: |
+          docker build \
+          -t $REGISTRY/$REPOSITORY:$IMAGE_TAG \
+          -f ./3.msa/member ./3.msa
+          docker push $REGISTRY/$REPOSITORY:$IMAGE_TAG
+
+      - name: eks kubectl apply member
+        run: |
+          kubectl rollout restart deployment member-depl -n crong
+
+      - name: build and push docker image to ordering
+        env:
+          REGISTRY: 346903264902.dkr.ecr.ap-northeast-2.amazonaws.com
+          REPOSITORY: crong/ordering
+          IMAGE_TAG: latest
+        run: |
+          docker build \
+          -t $REGISTRY/$REPOSITORY:$IMAGE_TAG \
+          -f ./3.msa/ordering ./3.msa
+          docker push $REGISTRY/$REPOSITORY:$IMAGE_TAG
+
+      - name: eks kubectl apply ordering
+        run: |
+          kubectl rollout restart deployment ordering-depl -n crong
+
+      - name: build and push docker image to product
+        env:
+          REGISTRY: 346903264902.dkr.ecr.ap-northeast-2.amazonaws.com
+          REPOSITORY: crong/product
+          IMAGE_TAG: latest
+        run: |
+          docker build \
+          -t $REGISTRY/$REPOSITORY:$IMAGE_TAG \
+          -f ./3.msa/product ./3.msa
+          docker push $REGISTRY/$REPOSITORY:$IMAGE_TAG
+
+      - name: eks kubectl apply product
+        run: |
+          kubectl rollout restart deployment product-depl -n crong
+        

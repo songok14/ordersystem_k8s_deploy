@@ -1,0 +1,1251 @@
+2025-08-217 11:21 o.h.validator.internal.util.Version-HV000001: Hibernate Validator 8.0.2.Final
+2025-08-217 11:21 c.b.o.OrdersystemApplication-Starting OrdersystemApplication using Java 17.0.15 with PID 28312 (/Users/eunsung/Documents/Hanwah_Beyond_16/Spring/ordersystem/build/classes/java/main started by eunsung in /Users/eunsung/Documents/Hanwah_Beyond_16/Spring/ordersystem)
+2025-08-217 11:21 c.b.o.OrdersystemApplication-The following 1 profile is active: "prod"
+2025-08-217 11:21 o.s.d.r.c.RepositoryConfigurationDelegate-Multiple Spring Data modules found, entering strict repository configuration mode
+2025-08-217 11:21 o.s.d.r.c.RepositoryConfigurationDelegate-Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-08-217 11:21 o.s.d.r.c.RepositoryConfigurationDelegate-Finished Spring Data repository scanning in 73 ms. Found 4 JPA repository interfaces.
+2025-08-217 11:21 o.s.d.r.c.RepositoryConfigurationDelegate-Multiple Spring Data modules found, entering strict repository configuration mode
+2025-08-217 11:21 o.s.d.r.c.RepositoryConfigurationDelegate-Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2025-08-217 11:21 o.s.d.r.c.RepositoryConfigurationExtensionSupport-Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.beyond.ordersystem.member.repository.MemberRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+2025-08-217 11:21 o.s.d.r.c.RepositoryConfigurationExtensionSupport-Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.beyond.ordersystem.ordering.repository.OrderingDetailRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+2025-08-217 11:21 o.s.d.r.c.RepositoryConfigurationExtensionSupport-Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.beyond.ordersystem.ordering.repository.OrderingRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+2025-08-217 11:21 o.s.d.r.c.RepositoryConfigurationExtensionSupport-Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.beyond.ordersystem.product.repository.ProductRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+2025-08-217 11:21 o.s.d.r.c.RepositoryConfigurationDelegate-Finished Spring Data repository scanning in 4 ms. Found 0 Redis repository interfaces.
+2025-08-217 11:21 o.s.b.w.e.tomcat.TomcatWebServer-Tomcat initialized with port 8080 (http)
+2025-08-217 11:21 o.a.coyote.http11.Http11NioProtocol-Initializing ProtocolHandler ["http-nio-8080"]
+2025-08-217 11:21 o.a.catalina.core.StandardService-Starting service [Tomcat]
+2025-08-217 11:21 o.a.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/10.1.43]
+2025-08-217 11:21 o.a.c.c.C.[Tomcat].[localhost].[/]-Initializing Spring embedded WebApplicationContext
+2025-08-217 11:21 o.s.b.w.s.c.ServletWebServerApplicationContext-Root WebApplicationContext: initialization completed in 761 ms
+2025-08-217 11:21 o.h.jpa.internal.util.LogHelper-HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-08-217 11:21 org.hibernate.Version-HHH000412: Hibernate ORM core version 6.6.22.Final
+2025-08-217 11:21 o.h.c.i.RegionFactoryInitiator-HHH000026: Second-level cache disabled
+2025-08-217 11:21 o.s.o.j.p.SpringPersistenceUnitInfo-No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-08-217 11:21 com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Starting...
+2025-08-217 11:21 com.zaxxer.hikari.pool.HikariPool-HikariPool-1 - Added connection org.mariadb.jdbc.Connection@1cab19e2
+2025-08-217 11:21 com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Start completed.
+2025-08-217 11:21 org.hibernate.orm.deprecation-HHH90000025: MariaDBDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-08-217 11:21 o.hibernate.orm.connections.pooling-HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 11.8.2
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-08-217 11:21 o.h.e.t.j.p.i.JtaPlatformInitiator-HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-08-217 11:21 o.s.o.j.LocalContainerEntityManagerFactoryBean-Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-08-217 11:21 o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration-spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-08-217 11:21 o.s.b.a.s.s.UserDetailsServiceAutoConfiguration-
+
+Using generated security password: a064ca07-2cf7-4a66-8ae0-caff9ad86106
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2025-08-217 11:21 o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer-Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+2025-08-217 11:21 o.a.coyote.http11.Http11NioProtocol-Starting ProtocolHandler ["http-nio-8080"]
+2025-08-217 11:21 o.s.b.w.e.tomcat.TomcatWebServer-Tomcat started on port 8080 (http) with context path '/'
+2025-08-217 11:21 o.s.a.r.c.CachingConnectionFactory-Attempting to connect to: localhost:5672
+2025-08-217 11:21 o.s.a.r.c.CachingConnectionFactory-Created new connection: connectionFactory#355da59c:0/SimpleConnection@6e5091b0 [delegate=amqp://guest@127.0.0.1:5672/, localPort=49458]
+2025-08-217 11:21 c.b.o.OrdersystemApplication-Started OrdersystemApplication in 3.265 seconds (process running for 3.583)
+2025-08-217 11:21 o.s.a.r.l.SimpleMessageListenerContainer-Waiting for workers to finish.
+2025-08-217 11:21 o.s.a.r.l.SimpleMessageListenerContainer-Successfully waited for workers to finish.
+2025-08-217 11:21 o.s.b.w.e.tomcat.GracefulShutdown-Commencing graceful shutdown. Waiting for active requests to complete
+2025-08-217 11:21 o.s.b.w.e.tomcat.GracefulShutdown-Graceful shutdown complete
+2025-08-217 11:21 o.s.o.j.LocalContainerEntityManagerFactoryBean-Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-08-217 11:21 com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Shutdown initiated...
+2025-08-217 11:21 com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Shutdown completed.
+2025-08-217 14:07 o.h.validator.internal.util.Version-HV000001: Hibernate Validator 8.0.2.Final
+2025-08-217 14:07 c.b.o.OrdersystemApplication-Starting OrdersystemApplication using Java 17.0.15 with PID 32198 (/Users/eunsung/Documents/Hanwah_Beyond_16/Spring/ordersystem/build/classes/java/main started by eunsung in /Users/eunsung/Documents/Hanwah_Beyond_16/Spring/ordersystem)
+2025-08-217 14:07 c.b.o.OrdersystemApplication-The following 1 profile is active: "prod"
+2025-08-217 14:07 o.s.d.r.c.RepositoryConfigurationDelegate-Multiple Spring Data modules found, entering strict repository configuration mode
+2025-08-217 14:07 o.s.d.r.c.RepositoryConfigurationDelegate-Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-08-217 14:07 o.s.d.r.c.RepositoryConfigurationDelegate-Finished Spring Data repository scanning in 64 ms. Found 4 JPA repository interfaces.
+2025-08-217 14:07 o.s.d.r.c.RepositoryConfigurationDelegate-Multiple Spring Data modules found, entering strict repository configuration mode
+2025-08-217 14:07 o.s.d.r.c.RepositoryConfigurationDelegate-Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2025-08-217 14:07 o.s.d.r.c.RepositoryConfigurationExtensionSupport-Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.beyond.ordersystem.member.repository.MemberRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+2025-08-217 14:07 o.s.d.r.c.RepositoryConfigurationExtensionSupport-Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.beyond.ordersystem.ordering.repository.OrderingDetailRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+2025-08-217 14:07 o.s.d.r.c.RepositoryConfigurationExtensionSupport-Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.beyond.ordersystem.ordering.repository.OrderingRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+2025-08-217 14:07 o.s.d.r.c.RepositoryConfigurationExtensionSupport-Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.beyond.ordersystem.product.repository.ProductRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+2025-08-217 14:07 o.s.d.r.c.RepositoryConfigurationDelegate-Finished Spring Data repository scanning in 3 ms. Found 0 Redis repository interfaces.
+2025-08-217 14:07 o.s.b.w.e.tomcat.TomcatWebServer-Tomcat initialized with port 8080 (http)
+2025-08-217 14:07 o.a.coyote.http11.Http11NioProtocol-Initializing ProtocolHandler ["http-nio-8080"]
+2025-08-217 14:07 o.a.catalina.core.StandardService-Starting service [Tomcat]
+2025-08-217 14:07 o.a.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/10.1.43]
+2025-08-217 14:07 o.a.c.c.C.[Tomcat].[localhost].[/]-Initializing Spring embedded WebApplicationContext
+2025-08-217 14:07 o.s.b.w.s.c.ServletWebServerApplicationContext-Root WebApplicationContext: initialization completed in 764 ms
+2025-08-217 14:07 o.h.jpa.internal.util.LogHelper-HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-08-217 14:07 org.hibernate.Version-HHH000412: Hibernate ORM core version 6.6.22.Final
+2025-08-217 14:07 o.h.c.i.RegionFactoryInitiator-HHH000026: Second-level cache disabled
+2025-08-217 14:07 o.s.o.j.p.SpringPersistenceUnitInfo-No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-08-217 14:07 com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Starting...
+2025-08-217 14:07 com.zaxxer.hikari.pool.HikariPool-HikariPool-1 - Added connection org.mariadb.jdbc.Connection@26612078
+2025-08-217 14:07 com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Start completed.
+2025-08-217 14:07 org.hibernate.orm.deprecation-HHH90000025: MariaDBDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-08-217 14:07 o.hibernate.orm.connections.pooling-HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 11.8.2
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-08-217 14:07 o.h.e.t.j.p.i.JtaPlatformInitiator-HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-08-217 14:07 o.s.o.j.LocalContainerEntityManagerFactoryBean-Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-08-217 14:07 o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration-spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-08-217 14:07 o.s.b.a.s.s.UserDetailsServiceAutoConfiguration-
+
+Using generated security password: 471ba6ea-1934-4571-92f9-07d0e1a97266
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2025-08-217 14:07 o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer-Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+2025-08-217 14:07 o.a.coyote.http11.Http11NioProtocol-Starting ProtocolHandler ["http-nio-8080"]
+2025-08-217 14:07 o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext-Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
+2025-08-217 14:07 o.s.o.j.LocalContainerEntityManagerFactoryBean-Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-08-217 14:07 com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Shutdown initiated...
+2025-08-217 14:07 com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Shutdown completed.
+2025-08-217 14:07 o.s.b.a.l.ConditionEvaluationReportLogger-
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2025-08-217 14:07 o.s.b.d.LoggingFailureAnalysisReporter-
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+2025-08-217 14:07 o.h.validator.internal.util.Version-HV000001: Hibernate Validator 8.0.2.Final
+2025-08-217 14:07 c.b.o.OrdersystemApplication-Starting OrdersystemApplication using Java 17.0.15 with PID 32218 (/Users/eunsung/Documents/Hanwah_Beyond_16/Spring/ordersystem/build/classes/java/main started by eunsung in /Users/eunsung/Documents/Hanwah_Beyond_16/Spring/ordersystem)
+2025-08-217 14:07 c.b.o.OrdersystemApplication-The following 1 profile is active: "prod"
+2025-08-217 14:07 o.s.d.r.c.RepositoryConfigurationDelegate-Multiple Spring Data modules found, entering strict repository configuration mode
+2025-08-217 14:07 o.s.d.r.c.RepositoryConfigurationDelegate-Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-08-217 14:07 o.s.d.r.c.RepositoryConfigurationDelegate-Finished Spring Data repository scanning in 71 ms. Found 4 JPA repository interfaces.
+2025-08-217 14:07 o.s.d.r.c.RepositoryConfigurationDelegate-Multiple Spring Data modules found, entering strict repository configuration mode
+2025-08-217 14:07 o.s.d.r.c.RepositoryConfigurationDelegate-Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2025-08-217 14:07 o.s.d.r.c.RepositoryConfigurationExtensionSupport-Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.beyond.ordersystem.member.repository.MemberRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+2025-08-217 14:07 o.s.d.r.c.RepositoryConfigurationExtensionSupport-Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.beyond.ordersystem.ordering.repository.OrderingDetailRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+2025-08-217 14:07 o.s.d.r.c.RepositoryConfigurationExtensionSupport-Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.beyond.ordersystem.ordering.repository.OrderingRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+2025-08-217 14:07 o.s.d.r.c.RepositoryConfigurationExtensionSupport-Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.beyond.ordersystem.product.repository.ProductRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+2025-08-217 14:07 o.s.d.r.c.RepositoryConfigurationDelegate-Finished Spring Data repository scanning in 3 ms. Found 0 Redis repository interfaces.
+2025-08-217 14:07 o.s.b.w.e.tomcat.TomcatWebServer-Tomcat initialized with port 8080 (http)
+2025-08-217 14:07 o.a.coyote.http11.Http11NioProtocol-Initializing ProtocolHandler ["http-nio-8080"]
+2025-08-217 14:07 o.a.catalina.core.StandardService-Starting service [Tomcat]
+2025-08-217 14:07 o.a.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/10.1.43]
+2025-08-217 14:07 o.a.c.c.C.[Tomcat].[localhost].[/]-Initializing Spring embedded WebApplicationContext
+2025-08-217 14:07 o.s.b.w.s.c.ServletWebServerApplicationContext-Root WebApplicationContext: initialization completed in 715 ms
+2025-08-217 14:07 o.h.jpa.internal.util.LogHelper-HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-08-217 14:07 org.hibernate.Version-HHH000412: Hibernate ORM core version 6.6.22.Final
+2025-08-217 14:07 o.h.c.i.RegionFactoryInitiator-HHH000026: Second-level cache disabled
+2025-08-217 14:07 o.s.o.j.p.SpringPersistenceUnitInfo-No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-08-217 14:07 com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Starting...
+2025-08-217 14:07 com.zaxxer.hikari.pool.HikariPool-HikariPool-1 - Added connection org.mariadb.jdbc.Connection@1f3f434
+2025-08-217 14:07 com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Start completed.
+2025-08-217 14:07 org.hibernate.orm.deprecation-HHH90000025: MariaDBDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-08-217 14:07 o.hibernate.orm.connections.pooling-HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 11.8.2
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-08-217 14:07 o.h.e.t.j.p.i.JtaPlatformInitiator-HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-08-217 14:07 o.s.o.j.LocalContainerEntityManagerFactoryBean-Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-08-217 14:07 o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration-spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-08-217 14:07 o.s.b.a.s.s.UserDetailsServiceAutoConfiguration-
+
+Using generated security password: 26d27475-4c90-4e40-8949-4a85bc3db77a
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2025-08-217 14:07 o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer-Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+2025-08-217 14:07 o.a.coyote.http11.Http11NioProtocol-Starting ProtocolHandler ["http-nio-8080"]
+2025-08-217 14:07 o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext-Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
+2025-08-217 14:07 o.s.o.j.LocalContainerEntityManagerFactoryBean-Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-08-217 14:07 com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Shutdown initiated...
+2025-08-217 14:07 com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Shutdown completed.
+2025-08-217 14:07 o.s.b.a.l.ConditionEvaluationReportLogger-
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2025-08-217 14:07 o.s.b.d.LoggingFailureAnalysisReporter-
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+2025-08-217 14:08 o.h.validator.internal.util.Version-HV000001: Hibernate Validator 8.0.2.Final
+2025-08-217 14:08 c.b.o.OrdersystemApplication-Starting OrdersystemApplication using Java 17.0.15 with PID 32286 (/Users/eunsung/Documents/Hanwah_Beyond_16/Spring/ordersystem/build/classes/java/main started by eunsung in /Users/eunsung/Documents/Hanwah_Beyond_16/Spring/ordersystem)
+2025-08-217 14:08 c.b.o.OrdersystemApplication-The following 1 profile is active: "prod"
+2025-08-217 14:08 o.s.d.r.c.RepositoryConfigurationDelegate-Multiple Spring Data modules found, entering strict repository configuration mode
+2025-08-217 14:08 o.s.d.r.c.RepositoryConfigurationDelegate-Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-08-217 14:08 o.s.d.r.c.RepositoryConfigurationDelegate-Finished Spring Data repository scanning in 64 ms. Found 4 JPA repository interfaces.
+2025-08-217 14:08 o.s.d.r.c.RepositoryConfigurationDelegate-Multiple Spring Data modules found, entering strict repository configuration mode
+2025-08-217 14:08 o.s.d.r.c.RepositoryConfigurationDelegate-Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2025-08-217 14:08 o.s.d.r.c.RepositoryConfigurationExtensionSupport-Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.beyond.ordersystem.member.repository.MemberRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+2025-08-217 14:08 o.s.d.r.c.RepositoryConfigurationExtensionSupport-Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.beyond.ordersystem.ordering.repository.OrderingDetailRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+2025-08-217 14:08 o.s.d.r.c.RepositoryConfigurationExtensionSupport-Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.beyond.ordersystem.ordering.repository.OrderingRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+2025-08-217 14:08 o.s.d.r.c.RepositoryConfigurationExtensionSupport-Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.beyond.ordersystem.product.repository.ProductRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+2025-08-217 14:08 o.s.d.r.c.RepositoryConfigurationDelegate-Finished Spring Data repository scanning in 3 ms. Found 0 Redis repository interfaces.
+2025-08-217 14:08 o.s.b.w.e.tomcat.TomcatWebServer-Tomcat initialized with port 8080 (http)
+2025-08-217 14:08 o.a.coyote.http11.Http11NioProtocol-Initializing ProtocolHandler ["http-nio-8080"]
+2025-08-217 14:08 o.a.catalina.core.StandardService-Starting service [Tomcat]
+2025-08-217 14:08 o.a.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/10.1.43]
+2025-08-217 14:08 o.a.c.c.C.[Tomcat].[localhost].[/]-Initializing Spring embedded WebApplicationContext
+2025-08-217 14:08 o.s.b.w.s.c.ServletWebServerApplicationContext-Root WebApplicationContext: initialization completed in 717 ms
+2025-08-217 14:08 o.h.jpa.internal.util.LogHelper-HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-08-217 14:08 org.hibernate.Version-HHH000412: Hibernate ORM core version 6.6.22.Final
+2025-08-217 14:08 o.h.c.i.RegionFactoryInitiator-HHH000026: Second-level cache disabled
+2025-08-217 14:08 o.s.o.j.p.SpringPersistenceUnitInfo-No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-08-217 14:08 com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Starting...
+2025-08-217 14:08 com.zaxxer.hikari.pool.HikariPool-HikariPool-1 - Added connection org.mariadb.jdbc.Connection@26612078
+2025-08-217 14:08 com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Start completed.
+2025-08-217 14:08 org.hibernate.orm.deprecation-HHH90000025: MariaDBDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-08-217 14:08 o.hibernate.orm.connections.pooling-HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 11.8.2
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-08-217 14:08 o.h.e.t.j.p.i.JtaPlatformInitiator-HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-08-217 14:08 o.s.o.j.LocalContainerEntityManagerFactoryBean-Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-08-217 14:08 o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration-spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-08-217 14:08 o.s.b.a.s.s.UserDetailsServiceAutoConfiguration-
+
+Using generated security password: aa4ca7b2-5b31-4309-b50e-d65f11ddcccb
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2025-08-217 14:08 o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer-Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+2025-08-217 14:08 o.a.coyote.http11.Http11NioProtocol-Starting ProtocolHandler ["http-nio-8080"]
+2025-08-217 14:08 o.s.b.w.e.tomcat.TomcatWebServer-Tomcat started on port 8080 (http) with context path '/'
+2025-08-217 14:08 o.s.a.r.c.CachingConnectionFactory-Attempting to connect to: localhost:5672
+2025-08-217 14:08 o.s.a.r.c.CachingConnectionFactory-Created new connection: connectionFactory#4cce421e:0/SimpleConnection@293918f9 [delegate=amqp://guest@127.0.0.1:5672/, localPort=58266]
+2025-08-217 14:08 c.b.o.OrdersystemApplication-Started OrdersystemApplication in 3.143 seconds (process running for 3.407)
+2025-08-217 14:08 o.a.c.c.C.[Tomcat].[localhost].[/]-Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-08-217 14:08 o.s.web.servlet.DispatcherServlet-Initializing Servlet 'dispatcherServlet'
+2025-08-217 14:08 o.s.web.servlet.DispatcherServlet-Completed initialization in 1 ms
+2025-08-217 14:08 c.b.o.common.auth.JwtTokenFilter-JWT expired at 2025-08-04T01:13:17Z. Current time: 2025-08-05T05:08:55Z, a difference of 100538505 milliseconds.  Allowed clock skew: 0 milliseconds.
+2025-08-217 14:08 c.b.o.c.auth.JwtAutenticationHandler-eunsungErrorFull authentication is required to access this resource
+2025-08-217 14:12 o.s.a.r.l.SimpleMessageListenerContainer-Waiting for workers to finish.
+2025-08-217 14:12 o.s.a.r.l.SimpleMessageListenerContainer-Successfully waited for workers to finish.
+2025-08-217 14:12 o.s.b.w.e.tomcat.GracefulShutdown-Commencing graceful shutdown. Waiting for active requests to complete
+2025-08-217 14:12 o.s.b.w.e.tomcat.GracefulShutdown-Graceful shutdown complete
+2025-08-217 14:12 o.s.o.j.LocalContainerEntityManagerFactoryBean-Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-08-217 14:12 com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Shutdown initiated...
+2025-08-217 14:12 com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Shutdown completed.
+2025-08-217 14:12 o.h.validator.internal.util.Version-HV000001: Hibernate Validator 8.0.2.Final
+2025-08-217 14:12 c.b.o.OrdersystemApplication-Starting OrdersystemApplication using Java 17.0.15 with PID 32418 (/Users/eunsung/Documents/Hanwah_Beyond_16/Spring/ordersystem/build/classes/java/main started by eunsung in /Users/eunsung/Documents/Hanwah_Beyond_16/Spring/ordersystem)
+2025-08-217 14:12 c.b.o.OrdersystemApplication-The following 1 profile is active: "prod"
+2025-08-217 14:12 o.s.d.r.c.RepositoryConfigurationDelegate-Multiple Spring Data modules found, entering strict repository configuration mode
+2025-08-217 14:12 o.s.d.r.c.RepositoryConfigurationDelegate-Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-08-217 14:12 o.s.d.r.c.RepositoryConfigurationDelegate-Finished Spring Data repository scanning in 66 ms. Found 4 JPA repository interfaces.
+2025-08-217 14:12 o.s.d.r.c.RepositoryConfigurationDelegate-Multiple Spring Data modules found, entering strict repository configuration mode
+2025-08-217 14:12 o.s.d.r.c.RepositoryConfigurationDelegate-Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2025-08-217 14:12 o.s.d.r.c.RepositoryConfigurationExtensionSupport-Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.beyond.ordersystem.member.repository.MemberRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+2025-08-217 14:12 o.s.d.r.c.RepositoryConfigurationExtensionSupport-Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.beyond.ordersystem.ordering.repository.OrderingDetailRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+2025-08-217 14:12 o.s.d.r.c.RepositoryConfigurationExtensionSupport-Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.beyond.ordersystem.ordering.repository.OrderingRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+2025-08-217 14:12 o.s.d.r.c.RepositoryConfigurationExtensionSupport-Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.beyond.ordersystem.product.repository.ProductRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+2025-08-217 14:12 o.s.d.r.c.RepositoryConfigurationDelegate-Finished Spring Data repository scanning in 3 ms. Found 0 Redis repository interfaces.
+2025-08-217 14:12 o.s.b.w.e.tomcat.TomcatWebServer-Tomcat initialized with port 8080 (http)
+2025-08-217 14:12 o.a.coyote.http11.Http11NioProtocol-Initializing ProtocolHandler ["http-nio-8080"]
+2025-08-217 14:12 o.a.catalina.core.StandardService-Starting service [Tomcat]
+2025-08-217 14:12 o.a.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/10.1.43]
+2025-08-217 14:12 o.a.c.c.C.[Tomcat].[localhost].[/]-Initializing Spring embedded WebApplicationContext
+2025-08-217 14:12 o.s.b.w.s.c.ServletWebServerApplicationContext-Root WebApplicationContext: initialization completed in 675 ms
+2025-08-217 14:12 o.h.jpa.internal.util.LogHelper-HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-08-217 14:12 org.hibernate.Version-HHH000412: Hibernate ORM core version 6.6.22.Final
+2025-08-217 14:12 o.h.c.i.RegionFactoryInitiator-HHH000026: Second-level cache disabled
+2025-08-217 14:12 o.s.o.j.p.SpringPersistenceUnitInfo-No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-08-217 14:12 com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Starting...
+2025-08-217 14:12 com.zaxxer.hikari.pool.HikariPool-HikariPool-1 - Added connection org.mariadb.jdbc.Connection@54bc3bcf
+2025-08-217 14:12 com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Start completed.
+2025-08-217 14:12 org.hibernate.orm.deprecation-HHH90000025: MariaDBDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-08-217 14:12 o.hibernate.orm.connections.pooling-HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 11.8.2
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-08-217 14:12 o.h.e.t.j.p.i.JtaPlatformInitiator-HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-08-217 14:12 o.s.o.j.LocalContainerEntityManagerFactoryBean-Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-08-217 14:12 o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration-spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-08-217 14:12 o.s.b.a.s.s.UserDetailsServiceAutoConfiguration-
+
+Using generated security password: d148c184-0dd5-4fdb-8fc8-6aed75c5330c
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2025-08-217 14:12 o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer-Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+2025-08-217 14:12 o.a.coyote.http11.Http11NioProtocol-Starting ProtocolHandler ["http-nio-8080"]
+2025-08-217 14:12 o.s.b.w.e.tomcat.TomcatWebServer-Tomcat started on port 8080 (http) with context path '/'
+2025-08-217 14:12 o.s.a.r.c.CachingConnectionFactory-Attempting to connect to: localhost:5672
+2025-08-217 14:12 o.s.a.r.c.CachingConnectionFactory-Created new connection: connectionFactory#3681c285:0/SimpleConnection@48405f04 [delegate=amqp://guest@127.0.0.1:5672/, localPort=60148]
+2025-08-217 14:12 c.b.o.OrdersystemApplication-Started OrdersystemApplication in 3.071 seconds (process running for 3.27)
+2025-08-217 14:12 o.a.c.c.C.[Tomcat].[localhost].[/]-Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-08-217 14:12 o.s.web.servlet.DispatcherServlet-Initializing Servlet 'dispatcherServlet'
+2025-08-217 14:12 o.s.web.servlet.DispatcherServlet-Completed initialization in 1 ms
+2025-08-217 14:12 o.m.jdbc.message.server.ErrorPacket-Error: 1020-HY000: Record has changed since last read in table 'order_detail'
+2025-08-217 14:12 o.h.e.jdbc.spi.SqlExceptionHelper-SQL Error: 1020, SQLState: HY000
+2025-08-217 14:12 o.h.e.jdbc.spi.SqlExceptionHelper-(conn=3897) Record has changed since last read in table 'order_detail'
+2025-08-217 14:12 o.m.jdbc.message.server.ErrorPacket-Error: 1020-HY000: Record has changed since last read in table 'order_detail'
+2025-08-217 14:12 o.h.e.jdbc.spi.SqlExceptionHelper-SQL Error: 1020, SQLState: HY000
+2025-08-217 14:12 o.h.e.jdbc.spi.SqlExceptionHelper-(conn=3898) Record has changed since last read in table 'order_detail'
+2025-08-217 14:12 o.m.jdbc.message.server.ErrorPacket-Error: 1020-HY000: Record has changed since last read in table 'order_detail'
+2025-08-217 14:12 o.m.jdbc.message.server.ErrorPacket-Error: 1020-HY000: Record has changed since last read in table 'order_detail'
+2025-08-217 14:12 o.h.e.jdbc.spi.SqlExceptionHelper-SQL Error: 1020, SQLState: HY000
+2025-08-217 14:12 o.h.e.jdbc.spi.SqlExceptionHelper-(conn=3895) Record has changed since last read in table 'order_detail'
+2025-08-217 14:12 o.h.e.jdbc.spi.SqlExceptionHelper-SQL Error: 1020, SQLState: HY000
+2025-08-217 14:12 o.h.e.jdbc.spi.SqlExceptionHelper-(conn=3904) Record has changed since last read in table 'order_detail'
+2025-08-217 14:12 o.m.jdbc.message.server.ErrorPacket-Error: 1020-HY000: Record has changed since last read in table 'order_detail'
+2025-08-217 14:12 o.h.e.jdbc.spi.SqlExceptionHelper-SQL Error: 1020, SQLState: HY000
+2025-08-217 14:12 o.h.e.jdbc.spi.SqlExceptionHelper-(conn=3896) Record has changed since last read in table 'order_detail'
+2025-08-217 14:12 o.m.jdbc.message.server.ErrorPacket-Error: 1020-HY000: Record has changed since last read in table 'order_detail'
+2025-08-217 14:12 o.m.jdbc.message.server.ErrorPacket-Error: 1020-HY000: Record has changed since last read in table 'order_detail'
+2025-08-217 14:12 o.h.e.jdbc.spi.SqlExceptionHelper-SQL Error: 1020, SQLState: HY000
+2025-08-217 14:12 o.h.e.jdbc.spi.SqlExceptionHelper-(conn=3904) Record has changed since last read in table 'order_detail'
+2025-08-217 14:12 o.h.e.jdbc.spi.SqlExceptionHelper-SQL Error: 1020, SQLState: HY000
+2025-08-217 14:12 o.h.e.jdbc.spi.SqlExceptionHelper-(conn=3900) Record has changed since last read in table 'order_detail'
+2025-08-217 14:12 o.m.jdbc.message.server.ErrorPacket-Error: 1020-HY000: Record has changed since last read in table 'order_detail'
+2025-08-217 14:12 o.h.e.jdbc.spi.SqlExceptionHelper-SQL Error: 1020, SQLState: HY000
+2025-08-217 14:12 o.h.e.jdbc.spi.SqlExceptionHelper-(conn=3897) Record has changed since last read in table 'order_detail'
+2025-08-217 14:12 o.m.jdbc.message.server.ErrorPacket-Error: 1020-HY000: Record has changed since last read in table 'order_detail'
+2025-08-217 14:12 o.h.e.jdbc.spi.SqlExceptionHelper-SQL Error: 1020, SQLState: HY000
+2025-08-217 14:12 o.h.e.jdbc.spi.SqlExceptionHelper-(conn=3902) Record has changed since last read in table 'order_detail'
+2025-08-217 14:12 o.m.jdbc.message.server.ErrorPacket-Error: 1020-HY000: Record has changed since last read in table 'order_detail'
+2025-08-217 14:12 o.h.e.jdbc.spi.SqlExceptionHelper-SQL Error: 1020, SQLState: HY000
+2025-08-217 14:12 o.h.e.jdbc.spi.SqlExceptionHelper-(conn=3903) Record has changed since last read in table 'order_detail'
+2025-08-217 14:12 o.m.jdbc.message.server.ErrorPacket-Error: 1020-HY000: Record has changed since last read in table 'order_detail'
+2025-08-217 14:12 o.h.e.jdbc.spi.SqlExceptionHelper-SQL Error: 1020, SQLState: HY000
+2025-08-217 14:12 o.h.e.jdbc.spi.SqlExceptionHelper-(conn=3897) Record has changed since last read in table 'order_detail'
+2025-08-217 14:12 o.m.jdbc.message.server.ErrorPacket-Error: 1020-HY000: Record has changed since last read in table 'order_detail'
+2025-08-217 14:12 o.h.e.jdbc.spi.SqlExceptionHelper-SQL Error: 1020, SQLState: HY000
+2025-08-217 14:12 o.h.e.jdbc.spi.SqlExceptionHelper-(conn=3900) Record has changed since last read in table 'order_detail'
+2025-08-217 14:12 o.m.jdbc.message.server.ErrorPacket-Error: 1020-HY000: Record has changed since last read in table 'order_detail'
+2025-08-217 14:12 o.m.jdbc.message.server.ErrorPacket-Error: 1020-HY000: Record has changed since last read in table 'order_detail'
+2025-08-217 14:12 o.h.e.jdbc.spi.SqlExceptionHelper-SQL Error: 1020, SQLState: HY000
+2025-08-217 14:12 o.h.e.jdbc.spi.SqlExceptionHelper-SQL Error: 1020, SQLState: HY000
+2025-08-217 14:12 o.h.e.jdbc.spi.SqlExceptionHelper-(conn=3901) Record has changed since last read in table 'order_detail'
+2025-08-217 14:12 o.h.e.jdbc.spi.SqlExceptionHelper-(conn=3904) Record has changed since last read in table 'order_detail'
+2025-08-217 14:12 o.m.jdbc.message.server.ErrorPacket-Error: 1020-HY000: Record has changed since last read in table 'order_detail'
+2025-08-217 14:12 o.h.e.jdbc.spi.SqlExceptionHelper-SQL Error: 1020, SQLState: HY000
+2025-08-217 14:12 o.h.e.jdbc.spi.SqlExceptionHelper-(conn=3896) Record has changed since last read in table 'order_detail'
+2025-08-217 14:12 o.m.jdbc.message.server.ErrorPacket-Error: 1020-HY000: Record has changed since last read in table 'order_detail'
+2025-08-217 14:12 o.h.e.jdbc.spi.SqlExceptionHelper-SQL Error: 1020, SQLState: HY000
+2025-08-217 14:12 o.h.e.jdbc.spi.SqlExceptionHelper-(conn=3898) Record has changed since last read in table 'order_detail'
+2025-08-217 14:12 o.m.jdbc.message.server.ErrorPacket-Error: 1020-HY000: Record has changed since last read in table 'order_detail'
+2025-08-217 14:12 o.h.e.jdbc.spi.SqlExceptionHelper-SQL Error: 1020, SQLState: HY000
+2025-08-217 14:12 o.h.e.jdbc.spi.SqlExceptionHelper-(conn=3902) Record has changed since last read in table 'order_detail'
+2025-08-217 14:12 o.m.jdbc.message.server.ErrorPacket-Error: 1020-HY000: Record has changed since last read in table 'order_detail'
+2025-08-217 14:12 o.m.jdbc.message.server.ErrorPacket-Error: 1020-HY000: Record has changed since last read in table 'order_detail'
+2025-08-217 14:12 o.h.e.jdbc.spi.SqlExceptionHelper-SQL Error: 1020, SQLState: HY000
+2025-08-217 14:12 o.m.jdbc.message.server.ErrorPacket-Error: 1020-HY000: Record has changed since last read in table 'order_detail'
+2025-08-217 14:12 o.h.e.jdbc.spi.SqlExceptionHelper-(conn=3895) Record has changed since last read in table 'order_detail'
+2025-08-217 14:12 o.h.e.jdbc.spi.SqlExceptionHelper-SQL Error: 1020, SQLState: HY000
+2025-08-217 14:12 o.h.e.jdbc.spi.SqlExceptionHelper-(conn=3897) Record has changed since last read in table 'order_detail'
+2025-08-217 14:12 o.h.e.jdbc.spi.SqlExceptionHelper-SQL Error: 1020, SQLState: HY000
+2025-08-217 14:12 o.h.e.jdbc.spi.SqlExceptionHelper-(conn=3902) Record has changed since last read in table 'order_detail'
+2025-08-217 14:12 o.m.jdbc.message.server.ErrorPacket-Error: 1020-HY000: Record has changed since last read in table 'order_detail'
+2025-08-217 14:12 o.h.e.jdbc.spi.SqlExceptionHelper-SQL Error: 1020, SQLState: HY000
+2025-08-217 14:12 o.h.e.jdbc.spi.SqlExceptionHelper-(conn=3901) Record has changed since last read in table 'order_detail'
+2025-08-217 14:12 o.m.jdbc.message.server.ErrorPacket-Error: 1020-HY000: Record has changed since last read in table 'order_detail'
+2025-08-217 14:12 o.m.jdbc.message.server.ErrorPacket-Error: 1020-HY000: Record has changed since last read in table 'order_detail'
+2025-08-217 14:12 o.h.e.jdbc.spi.SqlExceptionHelper-SQL Error: 1020, SQLState: HY000
+2025-08-217 14:12 o.h.e.jdbc.spi.SqlExceptionHelper-(conn=3895) Record has changed since last read in table 'order_detail'
+2025-08-217 14:12 o.h.e.jdbc.spi.SqlExceptionHelper-SQL Error: 1020, SQLState: HY000
+2025-08-217 14:12 o.h.e.jdbc.spi.SqlExceptionHelper-(conn=3897) Record has changed since last read in table 'order_detail'
+2025-08-217 14:12 o.m.jdbc.message.server.ErrorPacket-Error: 1020-HY000: Record has changed since last read in table 'order_detail'
+2025-08-217 14:12 o.h.e.jdbc.spi.SqlExceptionHelper-SQL Error: 1020, SQLState: HY000
+2025-08-217 14:12 o.h.e.jdbc.spi.SqlExceptionHelper-(conn=3898) Record has changed since last read in table 'order_detail'
+2025-08-217 14:12 o.m.jdbc.message.server.ErrorPacket-Error: 1020-HY000: Record has changed since last read in table 'order_detail'
+2025-08-217 14:12 o.m.jdbc.message.server.ErrorPacket-Error: 1020-HY000: Record has changed since last read in table 'order_detail'
+2025-08-217 14:12 o.h.e.jdbc.spi.SqlExceptionHelper-SQL Error: 1020, SQLState: HY000
+2025-08-217 14:12 o.h.e.jdbc.spi.SqlExceptionHelper-(conn=3903) Record has changed since last read in table 'order_detail'
+2025-08-217 14:12 o.h.e.jdbc.spi.SqlExceptionHelper-SQL Error: 1020, SQLState: HY000
+2025-08-217 14:12 o.h.e.jdbc.spi.SqlExceptionHelper-(conn=3899) Record has changed since last read in table 'order_detail'
+2025-08-217 14:12 o.m.jdbc.message.server.ErrorPacket-Error: 1020-HY000: Record has changed since last read in table 'order_detail'
+2025-08-217 14:12 o.m.jdbc.message.server.ErrorPacket-Error: 1020-HY000: Record has changed since last read in table 'order_detail'
+2025-08-217 14:12 o.m.jdbc.message.server.ErrorPacket-Error: 1020-HY000: Record has changed since last read in table 'order_detail'
+2025-08-217 14:12 o.h.e.jdbc.spi.SqlExceptionHelper-SQL Error: 1020, SQLState: HY000
+2025-08-217 14:12 o.h.e.jdbc.spi.SqlExceptionHelper-(conn=3900) Record has changed since last read in table 'order_detail'
+2025-08-217 14:12 o.m.jdbc.message.server.ErrorPacket-Error: 1020-HY000: Record has changed since last read in table 'order_detail'
+2025-08-217 14:12 o.h.e.jdbc.spi.SqlExceptionHelper-SQL Error: 1020, SQLState: HY000
+2025-08-217 14:12 o.h.e.jdbc.spi.SqlExceptionHelper-SQL Error: 1020, SQLState: HY000
+2025-08-217 14:12 o.h.e.jdbc.spi.SqlExceptionHelper-(conn=3904) Record has changed since last read in table 'order_detail'
+2025-08-217 14:12 o.h.e.jdbc.spi.SqlExceptionHelper-(conn=3901) Record has changed since last read in table 'order_detail'
+2025-08-217 14:12 o.h.e.jdbc.spi.SqlExceptionHelper-SQL Error: 1020, SQLState: HY000
+2025-08-217 14:12 o.h.e.jdbc.spi.SqlExceptionHelper-(conn=3896) Record has changed since last read in table 'order_detail'
+2025-08-217 14:13 o.s.a.r.l.SimpleMessageListenerContainer-Waiting for workers to finish.
+2025-08-217 14:13 o.s.a.r.l.SimpleMessageListenerContainer-Successfully waited for workers to finish.
+2025-08-217 14:13 o.s.b.w.e.tomcat.GracefulShutdown-Commencing graceful shutdown. Waiting for active requests to complete
+2025-08-217 14:13 o.s.b.w.e.tomcat.GracefulShutdown-Graceful shutdown complete
+2025-08-217 14:13 o.s.o.j.LocalContainerEntityManagerFactoryBean-Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-08-217 14:13 com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Shutdown initiated...
+2025-08-217 14:13 com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Shutdown completed.
+2025-08-217 14:13 o.h.validator.internal.util.Version-HV000001: Hibernate Validator 8.0.2.Final
+2025-08-217 14:13 c.b.o.OrdersystemApplication-Starting OrdersystemApplication using Java 17.0.15 with PID 32463 (/Users/eunsung/Documents/Hanwah_Beyond_16/Spring/ordersystem/build/classes/java/main started by eunsung in /Users/eunsung/Documents/Hanwah_Beyond_16/Spring/ordersystem)
+2025-08-217 14:13 c.b.o.OrdersystemApplication-The following 1 profile is active: "prod"
+2025-08-217 14:13 o.s.d.r.c.RepositoryConfigurationDelegate-Multiple Spring Data modules found, entering strict repository configuration mode
+2025-08-217 14:13 o.s.d.r.c.RepositoryConfigurationDelegate-Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-08-217 14:13 o.s.d.r.c.RepositoryConfigurationDelegate-Finished Spring Data repository scanning in 64 ms. Found 4 JPA repository interfaces.
+2025-08-217 14:13 o.s.d.r.c.RepositoryConfigurationDelegate-Multiple Spring Data modules found, entering strict repository configuration mode
+2025-08-217 14:13 o.s.d.r.c.RepositoryConfigurationDelegate-Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2025-08-217 14:13 o.s.d.r.c.RepositoryConfigurationExtensionSupport-Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.beyond.ordersystem.member.repository.MemberRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+2025-08-217 14:13 o.s.d.r.c.RepositoryConfigurationExtensionSupport-Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.beyond.ordersystem.ordering.repository.OrderingDetailRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+2025-08-217 14:13 o.s.d.r.c.RepositoryConfigurationExtensionSupport-Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.beyond.ordersystem.ordering.repository.OrderingRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+2025-08-217 14:13 o.s.d.r.c.RepositoryConfigurationExtensionSupport-Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.beyond.ordersystem.product.repository.ProductRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+2025-08-217 14:13 o.s.d.r.c.RepositoryConfigurationDelegate-Finished Spring Data repository scanning in 3 ms. Found 0 Redis repository interfaces.
+2025-08-217 14:13 o.s.b.w.e.tomcat.TomcatWebServer-Tomcat initialized with port 8080 (http)
+2025-08-217 14:13 o.a.coyote.http11.Http11NioProtocol-Initializing ProtocolHandler ["http-nio-8080"]
+2025-08-217 14:13 o.a.catalina.core.StandardService-Starting service [Tomcat]
+2025-08-217 14:13 o.a.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/10.1.43]
+2025-08-217 14:13 o.a.c.c.C.[Tomcat].[localhost].[/]-Initializing Spring embedded WebApplicationContext
+2025-08-217 14:13 o.s.b.w.s.c.ServletWebServerApplicationContext-Root WebApplicationContext: initialization completed in 673 ms
+2025-08-217 14:13 o.h.jpa.internal.util.LogHelper-HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-08-217 14:13 org.hibernate.Version-HHH000412: Hibernate ORM core version 6.6.22.Final
+2025-08-217 14:13 o.h.c.i.RegionFactoryInitiator-HHH000026: Second-level cache disabled
+2025-08-217 14:13 o.s.o.j.p.SpringPersistenceUnitInfo-No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-08-217 14:13 com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Starting...
+2025-08-217 14:13 com.zaxxer.hikari.pool.HikariPool-HikariPool-1 - Added connection org.mariadb.jdbc.Connection@45d38165
+2025-08-217 14:13 com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Start completed.
+2025-08-217 14:13 org.hibernate.orm.deprecation-HHH90000025: MariaDBDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-08-217 14:13 o.hibernate.orm.connections.pooling-HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 11.8.2
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-08-217 14:13 o.h.e.t.j.p.i.JtaPlatformInitiator-HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-08-217 14:13 o.s.o.j.LocalContainerEntityManagerFactoryBean-Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-08-217 14:13 o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration-spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-08-217 14:13 o.s.b.a.s.s.UserDetailsServiceAutoConfiguration-
+
+Using generated security password: 158a290a-e35c-4ee5-8885-ca73e92c0e23
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2025-08-217 14:13 o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer-Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+2025-08-217 14:13 o.a.coyote.http11.Http11NioProtocol-Starting ProtocolHandler ["http-nio-8080"]
+2025-08-217 14:13 o.s.b.w.e.tomcat.TomcatWebServer-Tomcat started on port 8080 (http) with context path '/'
+2025-08-217 14:13 o.s.a.r.c.CachingConnectionFactory-Attempting to connect to: localhost:5672
+2025-08-217 14:13 o.s.a.r.c.CachingConnectionFactory-Created new connection: connectionFactory#4163f505:0/SimpleConnection@4fb5adb8 [delegate=amqp://guest@127.0.0.1:5672/, localPort=61428]
+2025-08-217 14:13 c.b.o.OrdersystemApplication-Started OrdersystemApplication in 3.064 seconds (process running for 3.261)
+2025-08-217 14:13 o.a.c.c.C.[Tomcat].[localhost].[/]-Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-08-217 14:13 o.s.web.servlet.DispatcherServlet-Initializing Servlet 'dispatcherServlet'
+2025-08-217 14:13 o.s.web.servlet.DispatcherServlet-Completed initialization in 1 ms
+2025-08-217 14:13 o.m.jdbc.message.server.ErrorPacket-Error: 1020-HY000: Record has changed since last read in table 'order_detail'
+2025-08-217 14:13 o.m.jdbc.message.server.ErrorPacket-Error: 1020-HY000: Record has changed since last read in table 'order_detail'
+2025-08-217 14:13 o.m.jdbc.message.server.ErrorPacket-Error: 1020-HY000: Record has changed since last read in table 'order_detail'
+2025-08-217 14:13 o.h.e.jdbc.spi.SqlExceptionHelper-SQL Error: 1020, SQLState: HY000
+2025-08-217 14:13 o.h.e.jdbc.spi.SqlExceptionHelper-(conn=3905) Record has changed since last read in table 'order_detail'
+2025-08-217 14:13 o.h.e.jdbc.spi.SqlExceptionHelper-SQL Error: 1020, SQLState: HY000
+2025-08-217 14:13 o.h.e.jdbc.spi.SqlExceptionHelper-(conn=3907) Record has changed since last read in table 'order_detail'
+2025-08-217 14:13 o.h.e.jdbc.spi.SqlExceptionHelper-SQL Error: 1020, SQLState: HY000
+2025-08-217 14:13 o.h.e.jdbc.spi.SqlExceptionHelper-(conn=3914) Record has changed since last read in table 'order_detail'
+2025-08-217 14:13 o.m.jdbc.message.server.ErrorPacket-Error: 1020-HY000: Record has changed since last read in table 'order_detail'
+2025-08-217 14:13 o.h.e.jdbc.spi.SqlExceptionHelper-SQL Error: 1020, SQLState: HY000
+2025-08-217 14:13 o.h.e.jdbc.spi.SqlExceptionHelper-(conn=3906) Record has changed since last read in table 'order_detail'
+2025-08-217 14:13 o.m.jdbc.message.server.ErrorPacket-Error: 1020-HY000: Record has changed since last read in table 'order_detail'
+2025-08-217 14:13 o.h.e.jdbc.spi.SqlExceptionHelper-SQL Error: 1020, SQLState: HY000
+2025-08-217 14:13 o.h.e.jdbc.spi.SqlExceptionHelper-(conn=3909) Record has changed since last read in table 'order_detail'
+2025-08-217 14:13 o.m.jdbc.message.server.ErrorPacket-Error: 1020-HY000: Record has changed since last read in table 'order_detail'
+2025-08-217 14:13 o.h.e.jdbc.spi.SqlExceptionHelper-SQL Error: 1020, SQLState: HY000
+2025-08-217 14:13 o.h.e.jdbc.spi.SqlExceptionHelper-(conn=3913) Record has changed since last read in table 'order_detail'
+2025-08-217 14:13 o.m.jdbc.message.server.ErrorPacket-Error: 1020-HY000: Record has changed since last read in table 'order_detail'
+2025-08-217 14:13 o.h.e.jdbc.spi.SqlExceptionHelper-SQL Error: 1020, SQLState: HY000
+2025-08-217 14:13 o.h.e.jdbc.spi.SqlExceptionHelper-(conn=3905) Record has changed since last read in table 'order_detail'
+2025-08-217 14:13 o.m.jdbc.message.server.ErrorPacket-Error: 1020-HY000: Record has changed since last read in table 'order_detail'
+2025-08-217 14:13 o.h.e.jdbc.spi.SqlExceptionHelper-SQL Error: 1020, SQLState: HY000
+2025-08-217 14:13 o.h.e.jdbc.spi.SqlExceptionHelper-(conn=3906) Record has changed since last read in table 'order_detail'
+2025-08-217 14:13 o.m.jdbc.message.server.ErrorPacket-Error: 1020-HY000: Record has changed since last read in table 'order_detail'
+2025-08-217 14:13 o.h.e.jdbc.spi.SqlExceptionHelper-SQL Error: 1020, SQLState: HY000
+2025-08-217 14:13 o.h.e.jdbc.spi.SqlExceptionHelper-(conn=3912) Record has changed since last read in table 'order_detail'
+2025-08-217 14:13 o.m.jdbc.message.server.ErrorPacket-Error: 1020-HY000: Record has changed since last read in table 'order_detail'
+2025-08-217 14:13 o.h.e.jdbc.spi.SqlExceptionHelper-SQL Error: 1020, SQLState: HY000
+2025-08-217 14:13 o.h.e.jdbc.spi.SqlExceptionHelper-(conn=3908) Record has changed since last read in table 'order_detail'
+2025-08-217 14:13 o.m.jdbc.message.server.ErrorPacket-Error: 1020-HY000: Record has changed since last read in table 'order_detail'
+2025-08-217 14:13 o.h.e.jdbc.spi.SqlExceptionHelper-SQL Error: 1020, SQLState: HY000
+2025-08-217 14:13 o.h.e.jdbc.spi.SqlExceptionHelper-(conn=3911) Record has changed since last read in table 'order_detail'
+2025-08-217 14:13 o.m.jdbc.message.server.ErrorPacket-Error: 1020-HY000: Record has changed since last read in table 'order_detail'
+2025-08-217 14:13 o.h.e.jdbc.spi.SqlExceptionHelper-SQL Error: 1020, SQLState: HY000
+2025-08-217 14:13 o.h.e.jdbc.spi.SqlExceptionHelper-(conn=3905) Record has changed since last read in table 'order_detail'
+2025-08-217 14:13 o.m.jdbc.message.server.ErrorPacket-Error: 1020-HY000: Record has changed since last read in table 'order_detail'
+2025-08-217 14:13 o.h.e.jdbc.spi.SqlExceptionHelper-SQL Error: 1020, SQLState: HY000
+2025-08-217 14:13 o.h.e.jdbc.spi.SqlExceptionHelper-(conn=3907) Record has changed since last read in table 'order_detail'
+2025-08-217 14:13 o.m.jdbc.message.server.ErrorPacket-Error: 1020-HY000: Record has changed since last read in table 'order_detail'
+2025-08-217 14:13 o.h.e.jdbc.spi.SqlExceptionHelper-SQL Error: 1020, SQLState: HY000
+2025-08-217 14:13 o.h.e.jdbc.spi.SqlExceptionHelper-(conn=3914) Record has changed since last read in table 'order_detail'
+2025-08-217 14:13 o.m.jdbc.message.server.ErrorPacket-Error: 1020-HY000: Record has changed since last read in table 'order_detail'
+2025-08-217 14:13 o.h.e.jdbc.spi.SqlExceptionHelper-SQL Error: 1020, SQLState: HY000
+2025-08-217 14:13 o.h.e.jdbc.spi.SqlExceptionHelper-(conn=3906) Record has changed since last read in table 'order_detail'
+2025-08-217 14:13 o.m.jdbc.message.server.ErrorPacket-Error: 1020-HY000: Record has changed since last read in table 'order_detail'
+2025-08-217 14:13 o.h.e.jdbc.spi.SqlExceptionHelper-SQL Error: 1020, SQLState: HY000
+2025-08-217 14:13 o.h.e.jdbc.spi.SqlExceptionHelper-(conn=3905) Record has changed since last read in table 'order_detail'
+2025-08-217 14:13 o.m.jdbc.message.server.ErrorPacket-Error: 1020-HY000: Record has changed since last read in table 'order_detail'
+2025-08-217 14:13 o.h.e.jdbc.spi.SqlExceptionHelper-SQL Error: 1020, SQLState: HY000
+2025-08-217 14:13 o.h.e.jdbc.spi.SqlExceptionHelper-(conn=3905) Record has changed since last read in table 'order_detail'
+2025-08-217 14:13 o.m.jdbc.message.server.ErrorPacket-Error: 1020-HY000: Record has changed since last read in table 'order_detail'
+2025-08-217 14:13 o.h.e.jdbc.spi.SqlExceptionHelper-SQL Error: 1020, SQLState: HY000
+2025-08-217 14:13 o.h.e.jdbc.spi.SqlExceptionHelper-(conn=3909) Record has changed since last read in table 'order_detail'
+2025-08-217 14:13 o.m.jdbc.message.server.ErrorPacket-Error: 1020-HY000: Record has changed since last read in table 'order_detail'
+2025-08-217 14:13 o.h.e.jdbc.spi.SqlExceptionHelper-SQL Error: 1020, SQLState: HY000
+2025-08-217 14:13 o.h.e.jdbc.spi.SqlExceptionHelper-(conn=3905) Record has changed since last read in table 'order_detail'
+2025-08-217 14:13 o.m.jdbc.message.server.ErrorPacket-Error: 1020-HY000: Record has changed since last read in table 'order_detail'
+2025-08-217 14:13 o.h.e.jdbc.spi.SqlExceptionHelper-SQL Error: 1020, SQLState: HY000
+2025-08-217 14:13 o.h.e.jdbc.spi.SqlExceptionHelper-(conn=3906) Record has changed since last read in table 'order_detail'
+2025-08-217 14:13 o.m.jdbc.message.server.ErrorPacket-Error: 1020-HY000: Record has changed since last read in table 'order_detail'
+2025-08-217 14:13 o.h.e.jdbc.spi.SqlExceptionHelper-SQL Error: 1020, SQLState: HY000
+2025-08-217 14:13 o.h.e.jdbc.spi.SqlExceptionHelper-(conn=3908) Record has changed since last read in table 'order_detail'
+2025-08-217 14:13 o.m.jdbc.message.server.ErrorPacket-Error: 1020-HY000: Record has changed since last read in table 'order_detail'
+2025-08-217 14:13 o.h.e.jdbc.spi.SqlExceptionHelper-SQL Error: 1020, SQLState: HY000
+2025-08-217 14:13 o.h.e.jdbc.spi.SqlExceptionHelper-(conn=3907) Record has changed since last read in table 'order_detail'
+2025-08-217 14:13 o.m.jdbc.message.server.ErrorPacket-Error: 1020-HY000: Record has changed since last read in table 'order_detail'
+2025-08-217 14:13 o.h.e.jdbc.spi.SqlExceptionHelper-SQL Error: 1020, SQLState: HY000
+2025-08-217 14:13 o.h.e.jdbc.spi.SqlExceptionHelper-(conn=3906) Record has changed since last read in table 'order_detail'
+2025-08-217 14:13 o.m.jdbc.message.server.ErrorPacket-Error: 1020-HY000: Record has changed since last read in table 'order_detail'
+2025-08-217 14:13 o.h.e.jdbc.spi.SqlExceptionHelper-SQL Error: 1020, SQLState: HY000
+2025-08-217 14:13 o.h.e.jdbc.spi.SqlExceptionHelper-(conn=3911) Record has changed since last read in table 'order_detail'
+2025-08-217 14:13 o.m.jdbc.message.server.ErrorPacket-Error: 1020-HY000: Record has changed since last read in table 'order_detail'
+2025-08-217 14:13 o.h.e.jdbc.spi.SqlExceptionHelper-SQL Error: 1020, SQLState: HY000
+2025-08-217 14:13 o.h.e.jdbc.spi.SqlExceptionHelper-(conn=3905) Record has changed since last read in table 'order_detail'
+2025-08-217 14:14 o.s.a.r.l.SimpleMessageListenerContainer-Waiting for workers to finish.
+2025-08-217 14:14 o.s.a.r.l.SimpleMessageListenerContainer-Successfully waited for workers to finish.
+2025-08-217 14:14 o.s.b.w.e.tomcat.GracefulShutdown-Commencing graceful shutdown. Waiting for active requests to complete
+2025-08-217 14:14 o.s.b.w.e.tomcat.GracefulShutdown-Graceful shutdown complete
+2025-08-217 14:14 o.s.o.j.LocalContainerEntityManagerFactoryBean-Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-08-217 14:14 com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Shutdown initiated...
+2025-08-217 14:14 com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Shutdown completed.
+2025-08-217 14:14 o.h.validator.internal.util.Version-HV000001: Hibernate Validator 8.0.2.Final
+2025-08-217 14:14 c.b.o.OrdersystemApplication-Starting OrdersystemApplication using Java 17.0.15 with PID 32523 (/Users/eunsung/Documents/Hanwah_Beyond_16/Spring/ordersystem/build/classes/java/main started by eunsung in /Users/eunsung/Documents/Hanwah_Beyond_16/Spring/ordersystem)
+2025-08-217 14:14 c.b.o.OrdersystemApplication-The following 1 profile is active: "prod"
+2025-08-217 14:14 o.s.d.r.c.RepositoryConfigurationDelegate-Multiple Spring Data modules found, entering strict repository configuration mode
+2025-08-217 14:14 o.s.d.r.c.RepositoryConfigurationDelegate-Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-08-217 14:14 o.s.d.r.c.RepositoryConfigurationDelegate-Finished Spring Data repository scanning in 65 ms. Found 4 JPA repository interfaces.
+2025-08-217 14:14 o.s.d.r.c.RepositoryConfigurationDelegate-Multiple Spring Data modules found, entering strict repository configuration mode
+2025-08-217 14:14 o.s.d.r.c.RepositoryConfigurationDelegate-Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2025-08-217 14:14 o.s.d.r.c.RepositoryConfigurationExtensionSupport-Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.beyond.ordersystem.member.repository.MemberRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+2025-08-217 14:14 o.s.d.r.c.RepositoryConfigurationExtensionSupport-Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.beyond.ordersystem.ordering.repository.OrderingDetailRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+2025-08-217 14:14 o.s.d.r.c.RepositoryConfigurationExtensionSupport-Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.beyond.ordersystem.ordering.repository.OrderingRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+2025-08-217 14:14 o.s.d.r.c.RepositoryConfigurationExtensionSupport-Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.beyond.ordersystem.product.repository.ProductRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+2025-08-217 14:14 o.s.d.r.c.RepositoryConfigurationDelegate-Finished Spring Data repository scanning in 3 ms. Found 0 Redis repository interfaces.
+2025-08-217 14:14 o.s.b.w.e.tomcat.TomcatWebServer-Tomcat initialized with port 8080 (http)
+2025-08-217 14:14 o.a.coyote.http11.Http11NioProtocol-Initializing ProtocolHandler ["http-nio-8080"]
+2025-08-217 14:14 o.a.catalina.core.StandardService-Starting service [Tomcat]
+2025-08-217 14:14 o.a.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/10.1.43]
+2025-08-217 14:14 o.a.c.c.C.[Tomcat].[localhost].[/]-Initializing Spring embedded WebApplicationContext
+2025-08-217 14:14 o.s.b.w.s.c.ServletWebServerApplicationContext-Root WebApplicationContext: initialization completed in 657 ms
+2025-08-217 14:14 o.h.jpa.internal.util.LogHelper-HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-08-217 14:14 org.hibernate.Version-HHH000412: Hibernate ORM core version 6.6.22.Final
+2025-08-217 14:14 o.h.c.i.RegionFactoryInitiator-HHH000026: Second-level cache disabled
+2025-08-217 14:14 o.s.o.j.p.SpringPersistenceUnitInfo-No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-08-217 14:14 com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Starting...
+2025-08-217 14:14 com.zaxxer.hikari.pool.HikariPool-HikariPool-1 - Added connection org.mariadb.jdbc.Connection@26612078
+2025-08-217 14:14 com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Start completed.
+2025-08-217 14:14 org.hibernate.orm.deprecation-HHH90000025: MariaDBDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-08-217 14:14 o.hibernate.orm.connections.pooling-HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 11.8.2
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-08-217 14:14 o.h.e.t.j.p.i.JtaPlatformInitiator-HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-08-217 14:14 o.s.o.j.LocalContainerEntityManagerFactoryBean-Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-08-217 14:14 o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration-spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-08-217 14:14 o.s.b.a.s.s.UserDetailsServiceAutoConfiguration-
+
+Using generated security password: 94139193-8461-49f2-b86b-98a54a391599
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2025-08-217 14:14 o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer-Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+2025-08-217 14:14 o.a.coyote.http11.Http11NioProtocol-Starting ProtocolHandler ["http-nio-8080"]
+2025-08-217 14:14 o.s.b.w.e.tomcat.TomcatWebServer-Tomcat started on port 8080 (http) with context path '/'
+2025-08-217 14:14 o.s.a.r.c.CachingConnectionFactory-Attempting to connect to: localhost:5672
+2025-08-217 14:14 o.s.a.r.c.CachingConnectionFactory-Created new connection: connectionFactory#4cce421e:0/SimpleConnection@293918f9 [delegate=amqp://guest@127.0.0.1:5672/, localPort=61808]
+2025-08-217 14:14 c.b.o.OrdersystemApplication-Started OrdersystemApplication in 3.042 seconds (process running for 3.255)
+2025-08-217 14:14 o.a.c.c.C.[Tomcat].[localhost].[/]-Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-08-217 14:14 o.s.web.servlet.DispatcherServlet-Initializing Servlet 'dispatcherServlet'
+2025-08-217 14:14 o.s.web.servlet.DispatcherServlet-Completed initialization in 0 ms
+2025-08-217 14:17 o.s.a.r.l.SimpleMessageListenerContainer-Waiting for workers to finish.
+2025-08-217 14:17 o.s.a.r.l.SimpleMessageListenerContainer-Successfully waited for workers to finish.
+2025-08-217 14:17 o.s.b.w.e.tomcat.GracefulShutdown-Commencing graceful shutdown. Waiting for active requests to complete
+2025-08-217 14:17 o.s.b.w.e.tomcat.GracefulShutdown-Graceful shutdown complete
+2025-08-217 14:17 o.s.o.j.LocalContainerEntityManagerFactoryBean-Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-08-217 14:17 com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Shutdown initiated...
+2025-08-217 14:17 com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Shutdown completed.
+2025-08-217 14:17 o.h.validator.internal.util.Version-HV000001: Hibernate Validator 8.0.2.Final
+2025-08-217 14:17 c.b.o.OrdersystemApplication-Starting OrdersystemApplication using Java 17.0.15 with PID 32675 (/Users/eunsung/Documents/Hanwah_Beyond_16/Spring/ordersystem/build/classes/java/main started by eunsung in /Users/eunsung/Documents/Hanwah_Beyond_16/Spring/ordersystem)
+2025-08-217 14:17 c.b.o.OrdersystemApplication-The following 1 profile is active: "prod"
+2025-08-217 14:17 o.s.d.r.c.RepositoryConfigurationDelegate-Multiple Spring Data modules found, entering strict repository configuration mode
+2025-08-217 14:17 o.s.d.r.c.RepositoryConfigurationDelegate-Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-08-217 14:17 o.s.d.r.c.RepositoryConfigurationDelegate-Finished Spring Data repository scanning in 65 ms. Found 4 JPA repository interfaces.
+2025-08-217 14:17 o.s.d.r.c.RepositoryConfigurationDelegate-Multiple Spring Data modules found, entering strict repository configuration mode
+2025-08-217 14:17 o.s.d.r.c.RepositoryConfigurationDelegate-Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2025-08-217 14:17 o.s.d.r.c.RepositoryConfigurationExtensionSupport-Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.beyond.ordersystem.member.repository.MemberRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+2025-08-217 14:17 o.s.d.r.c.RepositoryConfigurationExtensionSupport-Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.beyond.ordersystem.ordering.repository.OrderingDetailRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+2025-08-217 14:17 o.s.d.r.c.RepositoryConfigurationExtensionSupport-Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.beyond.ordersystem.ordering.repository.OrderingRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+2025-08-217 14:17 o.s.d.r.c.RepositoryConfigurationExtensionSupport-Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.beyond.ordersystem.product.repository.ProductRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+2025-08-217 14:17 o.s.d.r.c.RepositoryConfigurationDelegate-Finished Spring Data repository scanning in 3 ms. Found 0 Redis repository interfaces.
+2025-08-217 14:17 o.s.b.w.e.tomcat.TomcatWebServer-Tomcat initialized with port 8080 (http)
+2025-08-217 14:17 o.a.coyote.http11.Http11NioProtocol-Initializing ProtocolHandler ["http-nio-8080"]
+2025-08-217 14:17 o.a.catalina.core.StandardService-Starting service [Tomcat]
+2025-08-217 14:17 o.a.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/10.1.43]
+2025-08-217 14:17 o.a.c.c.C.[Tomcat].[localhost].[/]-Initializing Spring embedded WebApplicationContext
+2025-08-217 14:17 o.s.b.w.s.c.ServletWebServerApplicationContext-Root WebApplicationContext: initialization completed in 814 ms
+2025-08-217 14:17 o.h.jpa.internal.util.LogHelper-HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-08-217 14:17 org.hibernate.Version-HHH000412: Hibernate ORM core version 6.6.22.Final
+2025-08-217 14:17 o.h.c.i.RegionFactoryInitiator-HHH000026: Second-level cache disabled
+2025-08-217 14:17 o.s.o.j.p.SpringPersistenceUnitInfo-No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-08-217 14:17 com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Starting...
+2025-08-217 14:17 com.zaxxer.hikari.pool.HikariPool-HikariPool-1 - Added connection org.mariadb.jdbc.Connection@26612078
+2025-08-217 14:17 com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Start completed.
+2025-08-217 14:17 org.hibernate.orm.deprecation-HHH90000025: MariaDBDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-08-217 14:17 o.hibernate.orm.connections.pooling-HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 11.8.2
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-08-217 14:17 o.h.e.t.j.p.i.JtaPlatformInitiator-HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-08-217 14:17 o.s.o.j.LocalContainerEntityManagerFactoryBean-Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-08-217 14:17 o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration-spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-08-217 14:17 o.s.b.a.s.s.UserDetailsServiceAutoConfiguration-
+
+Using generated security password: 7179b6a5-fef9-41e3-91e1-33bff85cc402
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2025-08-217 14:17 o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer-Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+2025-08-217 14:17 o.a.coyote.http11.Http11NioProtocol-Starting ProtocolHandler ["http-nio-8080"]
+2025-08-217 14:17 o.s.b.w.e.tomcat.TomcatWebServer-Tomcat started on port 8080 (http) with context path '/'
+2025-08-217 14:17 o.s.a.r.c.CachingConnectionFactory-Attempting to connect to: localhost:5672
+2025-08-217 14:17 o.s.a.r.c.CachingConnectionFactory-Created new connection: connectionFactory#4cce421e:0/SimpleConnection@293918f9 [delegate=amqp://guest@127.0.0.1:5672/, localPort=62777]
+2025-08-217 14:17 c.b.o.OrdersystemApplication-Started OrdersystemApplication in 3.265 seconds (process running for 3.485)
+2025-08-217 14:17 o.a.c.c.C.[Tomcat].[localhost].[/]-Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-08-217 14:17 o.s.web.servlet.DispatcherServlet-Initializing Servlet 'dispatcherServlet'
+2025-08-217 14:17 o.s.web.servlet.DispatcherServlet-Completed initialization in 1 ms
+2025-08-217 14:17 o.m.jdbc.message.server.ErrorPacket-Error: 1020-HY000: Record has changed since last read in table 'order_detail'
+2025-08-217 14:17 o.m.jdbc.message.server.ErrorPacket-Error: 1020-HY000: Record has changed since last read in table 'order_detail'
+2025-08-217 14:17 o.m.jdbc.message.server.ErrorPacket-Error: 1020-HY000: Record has changed since last read in table 'order_detail'
+2025-08-217 14:17 o.h.e.jdbc.spi.SqlExceptionHelper-SQL Error: 1020, SQLState: HY000
+2025-08-217 14:17 o.h.e.jdbc.spi.SqlExceptionHelper-SQL Error: 1020, SQLState: HY000
+2025-08-217 14:17 o.h.e.jdbc.spi.SqlExceptionHelper-(conn=3929) Record has changed since last read in table 'order_detail'
+2025-08-217 14:17 o.h.e.jdbc.spi.SqlExceptionHelper-(conn=3927) Record has changed since last read in table 'order_detail'
+2025-08-217 14:17 o.h.e.jdbc.spi.SqlExceptionHelper-SQL Error: 1020, SQLState: HY000
+2025-08-217 14:17 o.h.e.jdbc.spi.SqlExceptionHelper-(conn=3930) Record has changed since last read in table 'order_detail'
+2025-08-217 14:17 o.m.jdbc.message.server.ErrorPacket-Error: 1020-HY000: Record has changed since last read in table 'order_detail'
+2025-08-217 14:17 o.h.e.jdbc.spi.SqlExceptionHelper-SQL Error: 1020, SQLState: HY000
+2025-08-217 14:17 o.h.e.jdbc.spi.SqlExceptionHelper-(conn=3925) Record has changed since last read in table 'order_detail'
+2025-08-217 14:17 o.m.jdbc.message.server.ErrorPacket-Error: 1020-HY000: Record has changed since last read in table 'order_detail'
+2025-08-217 14:17 o.h.e.jdbc.spi.SqlExceptionHelper-SQL Error: 1020, SQLState: HY000
+2025-08-217 14:17 o.h.e.jdbc.spi.SqlExceptionHelper-(conn=3934) Record has changed since last read in table 'order_detail'
+2025-08-217 14:17 o.m.jdbc.message.server.ErrorPacket-Error: 1020-HY000: Record has changed since last read in table 'order_detail'
+2025-08-217 14:17 o.h.e.jdbc.spi.SqlExceptionHelper-SQL Error: 1020, SQLState: HY000
+2025-08-217 14:17 o.h.e.jdbc.spi.SqlExceptionHelper-(conn=3926) Record has changed since last read in table 'order_detail'
+2025-08-217 14:17 o.m.jdbc.message.server.ErrorPacket-Error: 1020-HY000: Record has changed since last read in table 'order_detail'
+2025-08-217 14:17 o.h.e.jdbc.spi.SqlExceptionHelper-SQL Error: 1020, SQLState: HY000
+2025-08-217 14:17 o.h.e.jdbc.spi.SqlExceptionHelper-(conn=3931) Record has changed since last read in table 'order_detail'
+2025-08-217 14:17 o.m.jdbc.message.server.ErrorPacket-Error: 1020-HY000: Record has changed since last read in table 'order_detail'
+2025-08-217 14:17 o.h.e.jdbc.spi.SqlExceptionHelper-SQL Error: 1020, SQLState: HY000
+2025-08-217 14:17 o.h.e.jdbc.spi.SqlExceptionHelper-(conn=3925) Record has changed since last read in table 'order_detail'
+2025-08-217 14:17 o.m.jdbc.message.server.ErrorPacket-Error: 1020-HY000: Record has changed since last read in table 'order_detail'
+2025-08-217 14:17 o.h.e.jdbc.spi.SqlExceptionHelper-SQL Error: 1020, SQLState: HY000
+2025-08-217 14:17 o.h.e.jdbc.spi.SqlExceptionHelper-(conn=3926) Record has changed since last read in table 'order_detail'
+2025-08-217 14:17 o.m.jdbc.message.server.ErrorPacket-Error: 1020-HY000: Record has changed since last read in table 'order_detail'
+2025-08-217 14:17 o.h.e.jdbc.spi.SqlExceptionHelper-SQL Error: 1020, SQLState: HY000
+2025-08-217 14:17 o.h.e.jdbc.spi.SqlExceptionHelper-(conn=3926) Record has changed since last read in table 'order_detail'
+2025-08-217 14:17 o.m.jdbc.message.server.ErrorPacket-Error: 1020-HY000: Record has changed since last read in table 'order_detail'
+2025-08-217 14:17 o.h.e.jdbc.spi.SqlExceptionHelper-SQL Error: 1020, SQLState: HY000
+2025-08-217 14:17 o.h.e.jdbc.spi.SqlExceptionHelper-(conn=3925) Record has changed since last read in table 'order_detail'
+2025-08-217 14:17 o.m.jdbc.message.server.ErrorPacket-Error: 1020-HY000: Record has changed since last read in table 'order_detail'
+2025-08-217 14:17 o.h.e.jdbc.spi.SqlExceptionHelper-SQL Error: 1020, SQLState: HY000
+2025-08-217 14:17 o.h.e.jdbc.spi.SqlExceptionHelper-(conn=3932) Record has changed since last read in table 'order_detail'
+2025-08-217 14:17 o.m.jdbc.message.server.ErrorPacket-Error: 1020-HY000: Record has changed since last read in table 'order_detail'
+2025-08-217 14:17 o.h.e.jdbc.spi.SqlExceptionHelper-SQL Error: 1020, SQLState: HY000
+2025-08-217 14:17 o.h.e.jdbc.spi.SqlExceptionHelper-(conn=3933) Record has changed since last read in table 'order_detail'
+2025-08-217 14:17 o.m.jdbc.message.server.ErrorPacket-Error: 1020-HY000: Record has changed since last read in table 'order_detail'
+2025-08-217 14:17 o.h.e.jdbc.spi.SqlExceptionHelper-SQL Error: 1020, SQLState: HY000
+2025-08-217 14:17 o.h.e.jdbc.spi.SqlExceptionHelper-(conn=3930) Record has changed since last read in table 'order_detail'
+2025-08-217 14:17 o.m.jdbc.message.server.ErrorPacket-Error: 1020-HY000: Record has changed since last read in table 'order_detail'
+2025-08-217 14:17 o.h.e.jdbc.spi.SqlExceptionHelper-SQL Error: 1020, SQLState: HY000
+2025-08-217 14:17 o.h.e.jdbc.spi.SqlExceptionHelper-(conn=3929) Record has changed since last read in table 'order_detail'
+2025-08-217 14:17 o.m.jdbc.message.server.ErrorPacket-Error: 1020-HY000: Record has changed since last read in table 'order_detail'
+2025-08-217 14:17 o.h.e.jdbc.spi.SqlExceptionHelper-SQL Error: 1020, SQLState: HY000
+2025-08-217 14:17 o.h.e.jdbc.spi.SqlExceptionHelper-(conn=3927) Record has changed since last read in table 'order_detail'
+2025-08-217 14:17 o.m.jdbc.message.server.ErrorPacket-Error: 1020-HY000: Record has changed since last read in table 'order_detail'
+2025-08-217 14:17 o.h.e.jdbc.spi.SqlExceptionHelper-SQL Error: 1020, SQLState: HY000
+2025-08-217 14:17 o.h.e.jdbc.spi.SqlExceptionHelper-(conn=3925) Record has changed since last read in table 'order_detail'
+2025-08-217 14:17 o.m.jdbc.message.server.ErrorPacket-Error: 1020-HY000: Record has changed since last read in table 'order_detail'
+2025-08-217 14:17 o.h.e.jdbc.spi.SqlExceptionHelper-SQL Error: 1020, SQLState: HY000
+2025-08-217 14:17 o.h.e.jdbc.spi.SqlExceptionHelper-(conn=3934) Record has changed since last read in table 'order_detail'
+2025-08-217 14:17 o.m.jdbc.message.server.ErrorPacket-Error: 1020-HY000: Record has changed since last read in table 'order_detail'
+2025-08-217 14:17 o.h.e.jdbc.spi.SqlExceptionHelper-SQL Error: 1020, SQLState: HY000
+2025-08-217 14:17 o.h.e.jdbc.spi.SqlExceptionHelper-(conn=3925) Record has changed since last read in table 'order_detail'
+2025-08-217 14:17 o.m.jdbc.message.server.ErrorPacket-Error: 1020-HY000: Record has changed since last read in table 'order_detail'
+2025-08-217 14:17 o.h.e.jdbc.spi.SqlExceptionHelper-SQL Error: 1020, SQLState: HY000
+2025-08-217 14:17 o.h.e.jdbc.spi.SqlExceptionHelper-(conn=3925) Record has changed since last read in table 'order_detail'
+2025-08-217 14:17 o.m.jdbc.message.server.ErrorPacket-Error: 1020-HY000: Record has changed since last read in table 'order_detail'
+2025-08-217 14:17 o.h.e.jdbc.spi.SqlExceptionHelper-SQL Error: 1020, SQLState: HY000
+2025-08-217 14:17 o.h.e.jdbc.spi.SqlExceptionHelper-(conn=3933) Record has changed since last read in table 'order_detail'
+2025-08-217 14:17 o.m.jdbc.message.server.ErrorPacket-Error: 1020-HY000: Record has changed since last read in table 'order_detail'
+2025-08-217 14:17 o.h.e.jdbc.spi.SqlExceptionHelper-SQL Error: 1020, SQLState: HY000
+2025-08-217 14:17 o.h.e.jdbc.spi.SqlExceptionHelper-(conn=3926) Record has changed since last read in table 'order_detail'
+2025-08-217 14:17 o.m.jdbc.message.server.ErrorPacket-Error: 1020-HY000: Record has changed since last read in table 'order_detail'
+2025-08-217 14:17 o.h.e.jdbc.spi.SqlExceptionHelper-SQL Error: 1020, SQLState: HY000
+2025-08-217 14:17 o.h.e.jdbc.spi.SqlExceptionHelper-(conn=3933) Record has changed since last read in table 'order_detail'
+2025-08-217 14:17 o.m.jdbc.message.server.ErrorPacket-Error: 1020-HY000: Record has changed since last read in table 'order_detail'
+2025-08-217 14:17 o.h.e.jdbc.spi.SqlExceptionHelper-SQL Error: 1020, SQLState: HY000
+2025-08-217 14:17 o.h.e.jdbc.spi.SqlExceptionHelper-(conn=3932) Record has changed since last read in table 'order_detail'
+2025-08-217 14:17 o.m.jdbc.message.server.ErrorPacket-Error: 1020-HY000: Record has changed since last read in table 'order_detail'
+2025-08-217 14:17 o.h.e.jdbc.spi.SqlExceptionHelper-SQL Error: 1020, SQLState: HY000
+2025-08-217 14:17 o.h.e.jdbc.spi.SqlExceptionHelper-(conn=3926) Record has changed since last read in table 'order_detail'
+2025-08-217 14:17 o.m.jdbc.message.server.ErrorPacket-Error: 1020-HY000: Record has changed since last read in table 'order_detail'
+2025-08-217 14:17 o.h.e.jdbc.spi.SqlExceptionHelper-SQL Error: 1020, SQLState: HY000
+2025-08-217 14:17 o.h.e.jdbc.spi.SqlExceptionHelper-(conn=3931) Record has changed since last read in table 'order_detail'
+2025-08-217 14:17 o.m.jdbc.message.server.ErrorPacket-Error: 1020-HY000: Record has changed since last read in table 'order_detail'
+2025-08-217 14:17 o.h.e.jdbc.spi.SqlExceptionHelper-SQL Error: 1020, SQLState: HY000
+2025-08-217 14:17 o.h.e.jdbc.spi.SqlExceptionHelper-(conn=3925) Record has changed since last read in table 'order_detail'
+2025-08-217 14:17 o.m.jdbc.message.server.ErrorPacket-Error: 1020-HY000: Record has changed since last read in table 'order_detail'
+2025-08-217 14:17 o.h.e.jdbc.spi.SqlExceptionHelper-SQL Error: 1020, SQLState: HY000
+2025-08-217 14:17 o.h.e.jdbc.spi.SqlExceptionHelper-(conn=3930) Record has changed since last read in table 'order_detail'
+2025-08-217 14:17 o.m.jdbc.message.server.ErrorPacket-Error: 1020-HY000: Record has changed since last read in table 'order_detail'
+2025-08-217 14:17 o.h.e.jdbc.spi.SqlExceptionHelper-SQL Error: 1020, SQLState: HY000
+2025-08-217 14:17 o.h.e.jdbc.spi.SqlExceptionHelper-(conn=3926) Record has changed since last read in table 'order_detail'
+2025-08-217 14:17 o.m.jdbc.message.server.ErrorPacket-Error: 1020-HY000: Record has changed since last read in table 'order_detail'
+2025-08-217 14:17 o.h.e.jdbc.spi.SqlExceptionHelper-SQL Error: 1020, SQLState: HY000
+2025-08-217 14:17 o.h.e.jdbc.spi.SqlExceptionHelper-(conn=3925) Record has changed since last read in table 'order_detail'
+2025-08-217 14:17 o.m.jdbc.message.server.ErrorPacket-Error: 1020-HY000: Record has changed since last read in table 'order_detail'
+2025-08-217 14:17 o.h.e.jdbc.spi.SqlExceptionHelper-SQL Error: 1020, SQLState: HY000
+2025-08-217 14:17 o.h.e.jdbc.spi.SqlExceptionHelper-(conn=3925) Record has changed since last read in table 'order_detail'
+2025-08-217 14:17 o.m.jdbc.message.server.ErrorPacket-Error: 1020-HY000: Record has changed since last read in table 'order_detail'
+2025-08-217 14:17 o.h.e.jdbc.spi.SqlExceptionHelper-SQL Error: 1020, SQLState: HY000
+2025-08-217 14:17 o.h.e.jdbc.spi.SqlExceptionHelper-(conn=3927) Record has changed since last read in table 'order_detail'
+2025-08-217 15:27 o.h.validator.internal.util.Version-HV000001: Hibernate Validator 8.0.2.Final
+2025-08-217 15:27 c.b.o.OrdersystemApplication-Starting OrdersystemApplication using Java 17.0.15 with PID 34873 (/Users/eunsung/Documents/Hanwah_Beyond_16/Spring/ordersystem/build/classes/java/main started by eunsung in /Users/eunsung/Documents/Hanwah_Beyond_16/Spring/ordersystem)
+2025-08-217 15:27 c.b.o.OrdersystemApplication-The following 1 profile is active: "prod"
+2025-08-217 15:27 o.s.d.r.c.RepositoryConfigurationDelegate-Multiple Spring Data modules found, entering strict repository configuration mode
+2025-08-217 15:27 o.s.d.r.c.RepositoryConfigurationDelegate-Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-08-217 15:27 o.s.d.r.c.RepositoryConfigurationDelegate-Finished Spring Data repository scanning in 60 ms. Found 4 JPA repository interfaces.
+2025-08-217 15:27 o.s.d.r.c.RepositoryConfigurationDelegate-Multiple Spring Data modules found, entering strict repository configuration mode
+2025-08-217 15:27 o.s.d.r.c.RepositoryConfigurationDelegate-Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2025-08-217 15:27 o.s.d.r.c.RepositoryConfigurationExtensionSupport-Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.beyond.ordersystem.member.repository.MemberRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+2025-08-217 15:27 o.s.d.r.c.RepositoryConfigurationExtensionSupport-Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.beyond.ordersystem.ordering.repository.OrderingDetailRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+2025-08-217 15:27 o.s.d.r.c.RepositoryConfigurationExtensionSupport-Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.beyond.ordersystem.ordering.repository.OrderingRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+2025-08-217 15:27 o.s.d.r.c.RepositoryConfigurationExtensionSupport-Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.beyond.ordersystem.product.repository.ProductRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+2025-08-217 15:27 o.s.d.r.c.RepositoryConfigurationDelegate-Finished Spring Data repository scanning in 3 ms. Found 0 Redis repository interfaces.
+2025-08-217 15:27 o.s.b.w.e.tomcat.TomcatWebServer-Tomcat initialized with port 8080 (http)
+2025-08-217 15:27 o.a.coyote.http11.Http11NioProtocol-Initializing ProtocolHandler ["http-nio-8080"]
+2025-08-217 15:27 o.a.catalina.core.StandardService-Starting service [Tomcat]
+2025-08-217 15:27 o.a.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/10.1.43]
+2025-08-217 15:27 o.a.c.c.C.[Tomcat].[localhost].[/]-Initializing Spring embedded WebApplicationContext
+2025-08-217 15:27 o.s.b.w.s.c.ServletWebServerApplicationContext-Root WebApplicationContext: initialization completed in 701 ms
+2025-08-217 15:27 o.h.jpa.internal.util.LogHelper-HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-08-217 15:27 org.hibernate.Version-HHH000412: Hibernate ORM core version 6.6.22.Final
+2025-08-217 15:27 o.h.c.i.RegionFactoryInitiator-HHH000026: Second-level cache disabled
+2025-08-217 15:27 o.s.o.j.p.SpringPersistenceUnitInfo-No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-08-217 15:27 com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Starting...
+2025-08-217 15:27 com.zaxxer.hikari.pool.HikariPool-HikariPool-1 - Added connection org.mariadb.jdbc.Connection@26612078
+2025-08-217 15:27 com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Start completed.
+2025-08-217 15:27 org.hibernate.orm.deprecation-HHH90000025: MariaDBDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-08-217 15:27 o.hibernate.orm.connections.pooling-HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 11.8.2
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-08-217 15:27 o.h.e.t.j.p.i.JtaPlatformInitiator-HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-08-217 15:27 o.s.o.j.LocalContainerEntityManagerFactoryBean-Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-08-217 15:27 o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration-spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-08-217 15:27 o.s.b.a.s.s.UserDetailsServiceAutoConfiguration-
+
+Using generated security password: 14328e1f-d87c-492e-8be8-30ca9ee0c875
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2025-08-217 15:27 o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer-Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+2025-08-217 15:27 o.a.coyote.http11.Http11NioProtocol-Starting ProtocolHandler ["http-nio-8080"]
+2025-08-217 15:27 o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext-Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
+2025-08-217 15:27 o.s.o.j.LocalContainerEntityManagerFactoryBean-Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-08-217 15:27 com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Shutdown initiated...
+2025-08-217 15:27 com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Shutdown completed.
+2025-08-217 15:27 o.s.b.a.l.ConditionEvaluationReportLogger-
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2025-08-217 15:27 o.s.b.d.LoggingFailureAnalysisReporter-
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+2025-08-217 15:27 o.h.validator.internal.util.Version-HV000001: Hibernate Validator 8.0.2.Final
+2025-08-217 15:27 c.b.o.OrdersystemApplication-Starting OrdersystemApplication using Java 17.0.15 with PID 34901 (/Users/eunsung/Documents/Hanwah_Beyond_16/Spring/ordersystem/build/classes/java/main started by eunsung in /Users/eunsung/Documents/Hanwah_Beyond_16/Spring/ordersystem)
+2025-08-217 15:27 c.b.o.OrdersystemApplication-The following 1 profile is active: "prod"
+2025-08-217 15:27 o.s.d.r.c.RepositoryConfigurationDelegate-Multiple Spring Data modules found, entering strict repository configuration mode
+2025-08-217 15:27 o.s.d.r.c.RepositoryConfigurationDelegate-Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-08-217 15:27 o.s.d.r.c.RepositoryConfigurationDelegate-Finished Spring Data repository scanning in 64 ms. Found 4 JPA repository interfaces.
+2025-08-217 15:27 o.s.d.r.c.RepositoryConfigurationDelegate-Multiple Spring Data modules found, entering strict repository configuration mode
+2025-08-217 15:27 o.s.d.r.c.RepositoryConfigurationDelegate-Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2025-08-217 15:27 o.s.d.r.c.RepositoryConfigurationExtensionSupport-Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.beyond.ordersystem.member.repository.MemberRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+2025-08-217 15:27 o.s.d.r.c.RepositoryConfigurationExtensionSupport-Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.beyond.ordersystem.ordering.repository.OrderingDetailRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+2025-08-217 15:27 o.s.d.r.c.RepositoryConfigurationExtensionSupport-Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.beyond.ordersystem.ordering.repository.OrderingRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+2025-08-217 15:27 o.s.d.r.c.RepositoryConfigurationExtensionSupport-Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.beyond.ordersystem.product.repository.ProductRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+2025-08-217 15:27 o.s.d.r.c.RepositoryConfigurationDelegate-Finished Spring Data repository scanning in 3 ms. Found 0 Redis repository interfaces.
+2025-08-217 15:27 o.s.b.w.e.tomcat.TomcatWebServer-Tomcat initialized with port 8080 (http)
+2025-08-217 15:27 o.a.coyote.http11.Http11NioProtocol-Initializing ProtocolHandler ["http-nio-8080"]
+2025-08-217 15:27 o.a.catalina.core.StandardService-Starting service [Tomcat]
+2025-08-217 15:27 o.a.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/10.1.43]
+2025-08-217 15:27 o.a.c.c.C.[Tomcat].[localhost].[/]-Initializing Spring embedded WebApplicationContext
+2025-08-217 15:27 o.s.b.w.s.c.ServletWebServerApplicationContext-Root WebApplicationContext: initialization completed in 684 ms
+2025-08-217 15:27 o.h.jpa.internal.util.LogHelper-HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-08-217 15:27 org.hibernate.Version-HHH000412: Hibernate ORM core version 6.6.22.Final
+2025-08-217 15:27 o.h.c.i.RegionFactoryInitiator-HHH000026: Second-level cache disabled
+2025-08-217 15:27 o.s.o.j.p.SpringPersistenceUnitInfo-No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-08-217 15:27 com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Starting...
+2025-08-217 15:27 com.zaxxer.hikari.pool.HikariPool-HikariPool-1 - Added connection org.mariadb.jdbc.Connection@26612078
+2025-08-217 15:27 com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Start completed.
+2025-08-217 15:27 org.hibernate.orm.deprecation-HHH90000025: MariaDBDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-08-217 15:27 o.hibernate.orm.connections.pooling-HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 11.8.2
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-08-217 15:27 o.h.e.t.j.p.i.JtaPlatformInitiator-HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-08-217 15:27 o.s.o.j.LocalContainerEntityManagerFactoryBean-Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-08-217 15:27 o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration-spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-08-217 15:27 o.s.b.a.s.s.UserDetailsServiceAutoConfiguration-
+
+Using generated security password: d74df413-1eac-40db-b068-d8a192559aac
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2025-08-217 15:27 o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer-Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+2025-08-217 15:27 o.a.coyote.http11.Http11NioProtocol-Starting ProtocolHandler ["http-nio-8080"]
+2025-08-217 15:27 o.s.b.w.e.tomcat.TomcatWebServer-Tomcat started on port 8080 (http) with context path '/'
+2025-08-217 15:27 o.s.a.r.c.CachingConnectionFactory-Attempting to connect to: localhost:5672
+2025-08-217 15:27 o.s.a.r.c.CachingConnectionFactory-Created new connection: connectionFactory#4cce421e:0/SimpleConnection@293918f9 [delegate=amqp://guest@127.0.0.1:5672/, localPort=63968]
+2025-08-217 15:27 c.b.o.OrdersystemApplication-Started OrdersystemApplication in 2.991 seconds (process running for 3.196)
+2025-08-217 15:27 o.a.c.c.C.[Tomcat].[localhost].[/]-Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-08-217 15:27 o.s.web.servlet.DispatcherServlet-Initializing Servlet 'dispatcherServlet'
+2025-08-217 15:27 o.s.web.servlet.DispatcherServlet-Completed initialization in 1 ms
+2025-08-217 15:28 o.m.jdbc.message.server.ErrorPacket-Error: 1213-40001: Deadlock found when trying to get lock; try restarting transaction
+2025-08-217 15:28 o.m.jdbc.message.server.ErrorPacket-Error: 1213-40001: Deadlock found when trying to get lock; try restarting transaction
+2025-08-217 15:28 o.m.jdbc.message.server.ErrorPacket-Error: 1213-40001: Deadlock found when trying to get lock; try restarting transaction
+2025-08-217 15:28 o.m.jdbc.message.server.ErrorPacket-Error: 1213-40001: Deadlock found when trying to get lock; try restarting transaction
+2025-08-217 15:28 o.m.jdbc.message.server.ErrorPacket-Error: 1213-40001: Deadlock found when trying to get lock; try restarting transaction
+2025-08-217 15:28 o.h.e.jdbc.spi.SqlExceptionHelper-SQL Error: 1213, SQLState: 40001
+2025-08-217 15:28 o.h.e.jdbc.spi.SqlExceptionHelper-SQL Error: 1213, SQLState: 40001
+2025-08-217 15:28 o.h.e.jdbc.spi.SqlExceptionHelper-(conn=3967) Deadlock found when trying to get lock; try restarting transaction
+2025-08-217 15:28 o.h.e.jdbc.spi.SqlExceptionHelper-(conn=3966) Deadlock found when trying to get lock; try restarting transaction
+2025-08-217 15:28 o.h.e.jdbc.spi.SqlExceptionHelper-SQL Error: 1213, SQLState: 40001
+2025-08-217 15:28 o.h.e.jdbc.spi.SqlExceptionHelper-(conn=3965) Deadlock found when trying to get lock; try restarting transaction
+2025-08-217 15:28 o.m.jdbc.message.server.ErrorPacket-Error: 1213-40001: Deadlock found when trying to get lock; try restarting transaction
+2025-08-217 15:28 o.h.e.jdbc.spi.SqlExceptionHelper-SQL Error: 1213, SQLState: 40001
+2025-08-217 15:28 o.m.jdbc.message.server.ErrorPacket-Error: 1213-40001: Deadlock found when trying to get lock; try restarting transaction
+2025-08-217 15:28 o.h.e.jdbc.spi.SqlExceptionHelper-SQL Error: 1213, SQLState: 40001
+2025-08-217 15:28 o.h.e.jdbc.spi.SqlExceptionHelper-(conn=3968) Deadlock found when trying to get lock; try restarting transaction
+2025-08-217 15:28 o.h.e.jdbc.spi.SqlExceptionHelper-SQL Error: 1213, SQLState: 40001
+2025-08-217 15:28 o.h.e.jdbc.spi.SqlExceptionHelper-(conn=3971) Deadlock found when trying to get lock; try restarting transaction
+2025-08-217 15:28 o.h.e.jdbc.spi.SqlExceptionHelper-SQL Error: 1213, SQLState: 40001
+2025-08-217 15:28 o.h.e.jdbc.spi.SqlExceptionHelper-(conn=3969) Deadlock found when trying to get lock; try restarting transaction
+2025-08-217 15:28 o.h.e.jdbc.spi.SqlExceptionHelper-(conn=3970) Deadlock found when trying to get lock; try restarting transaction
+2025-08-217 15:28 o.m.jdbc.message.server.ErrorPacket-Error: 1213-40001: Deadlock found when trying to get lock; try restarting transaction
+2025-08-217 15:28 o.h.e.jdbc.spi.SqlExceptionHelper-SQL Error: 1213, SQLState: 40001
+2025-08-217 15:28 o.h.e.jdbc.spi.SqlExceptionHelper-(conn=3973) Deadlock found when trying to get lock; try restarting transaction
+2025-08-217 15:28 o.m.jdbc.message.server.ErrorPacket-Error: 1020-HY000: Record has changed since last read in table 'order_detail'
+2025-08-217 15:28 o.h.e.jdbc.spi.SqlExceptionHelper-SQL Error: 1020, SQLState: HY000
+2025-08-217 15:28 o.h.e.jdbc.spi.SqlExceptionHelper-(conn=3974) Record has changed since last read in table 'order_detail'
+2025-08-217 15:28 o.m.jdbc.message.server.ErrorPacket-Error: 1020-HY000: Record has changed since last read in table 'order_detail'
+2025-08-217 15:28 o.h.e.jdbc.spi.SqlExceptionHelper-SQL Error: 1020, SQLState: HY000
+2025-08-217 15:28 o.h.e.jdbc.spi.SqlExceptionHelper-(conn=3965) Record has changed since last read in table 'order_detail'
+2025-08-217 15:28 o.m.jdbc.message.server.ErrorPacket-Error: 1020-HY000: Record has changed since last read in table 'order_detail'
+2025-08-217 15:28 o.h.e.jdbc.spi.SqlExceptionHelper-SQL Error: 1020, SQLState: HY000
+2025-08-217 15:28 o.h.e.jdbc.spi.SqlExceptionHelper-(conn=3966) Record has changed since last read in table 'order_detail'
+2025-08-217 15:28 o.m.jdbc.message.server.ErrorPacket-Error: 1020-HY000: Record has changed since last read in table 'order_detail'
+2025-08-217 15:28 o.h.e.jdbc.spi.SqlExceptionHelper-SQL Error: 1020, SQLState: HY000
+2025-08-217 15:28 o.h.e.jdbc.spi.SqlExceptionHelper-(conn=3974) Record has changed since last read in table 'order_detail'
+2025-08-217 15:28 o.m.jdbc.message.server.ErrorPacket-Error: 1020-HY000: Record has changed since last read in table 'order_detail'
+2025-08-217 15:28 o.h.e.jdbc.spi.SqlExceptionHelper-SQL Error: 1020, SQLState: HY000
+2025-08-217 15:28 o.h.e.jdbc.spi.SqlExceptionHelper-(conn=3967) Record has changed since last read in table 'order_detail'
+2025-08-217 15:28 o.m.jdbc.message.server.ErrorPacket-Error: 1020-HY000: Record has changed since last read in table 'order_detail'
+2025-08-217 15:28 o.h.e.jdbc.spi.SqlExceptionHelper-SQL Error: 1020, SQLState: HY000
+2025-08-217 15:28 o.h.e.jdbc.spi.SqlExceptionHelper-(conn=3969) Record has changed since last read in table 'order_detail'
+2025-08-217 15:28 o.m.jdbc.message.server.ErrorPacket-Error: 1020-HY000: Record has changed since last read in table 'order_detail'
+2025-08-217 15:28 o.h.e.jdbc.spi.SqlExceptionHelper-SQL Error: 1020, SQLState: HY000
+2025-08-217 15:28 o.h.e.jdbc.spi.SqlExceptionHelper-(conn=3966) Record has changed since last read in table 'order_detail'
+2025-08-217 15:28 o.m.jdbc.message.server.ErrorPacket-Error: 1020-HY000: Record has changed since last read in table 'order_detail'
+2025-08-217 15:28 o.h.e.jdbc.spi.SqlExceptionHelper-SQL Error: 1020, SQLState: HY000
+2025-08-217 15:28 o.h.e.jdbc.spi.SqlExceptionHelper-(conn=3967) Record has changed since last read in table 'order_detail'
+2025-08-217 15:28 o.s.a.r.l.SimpleMessageListenerContainer-Waiting for workers to finish.
+2025-08-217 15:28 o.s.a.r.l.SimpleMessageListenerContainer-Successfully waited for workers to finish.
+2025-08-217 15:28 o.s.b.w.e.tomcat.GracefulShutdown-Commencing graceful shutdown. Waiting for active requests to complete
+2025-08-217 15:28 o.s.b.w.e.tomcat.GracefulShutdown-Graceful shutdown complete
+2025-08-217 15:28 o.s.o.j.LocalContainerEntityManagerFactoryBean-Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-08-217 15:28 com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Shutdown initiated...
+2025-08-217 15:28 com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Shutdown completed.
+2025-08-217 15:28 o.h.validator.internal.util.Version-HV000001: Hibernate Validator 8.0.2.Final
+2025-08-217 15:28 c.b.o.OrdersystemApplication-Starting OrdersystemApplication using Java 17.0.15 with PID 34956 (/Users/eunsung/Documents/Hanwah_Beyond_16/Spring/ordersystem/build/classes/java/main started by eunsung in /Users/eunsung/Documents/Hanwah_Beyond_16/Spring/ordersystem)
+2025-08-217 15:28 c.b.o.OrdersystemApplication-The following 1 profile is active: "prod"
+2025-08-217 15:28 o.s.d.r.c.RepositoryConfigurationDelegate-Multiple Spring Data modules found, entering strict repository configuration mode
+2025-08-217 15:28 o.s.d.r.c.RepositoryConfigurationDelegate-Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-08-217 15:28 o.s.d.r.c.RepositoryConfigurationDelegate-Finished Spring Data repository scanning in 68 ms. Found 4 JPA repository interfaces.
+2025-08-217 15:28 o.s.d.r.c.RepositoryConfigurationDelegate-Multiple Spring Data modules found, entering strict repository configuration mode
+2025-08-217 15:28 o.s.d.r.c.RepositoryConfigurationDelegate-Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2025-08-217 15:28 o.s.d.r.c.RepositoryConfigurationExtensionSupport-Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.beyond.ordersystem.member.repository.MemberRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+2025-08-217 15:28 o.s.d.r.c.RepositoryConfigurationExtensionSupport-Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.beyond.ordersystem.ordering.repository.OrderingDetailRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+2025-08-217 15:28 o.s.d.r.c.RepositoryConfigurationExtensionSupport-Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.beyond.ordersystem.ordering.repository.OrderingRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+2025-08-217 15:28 o.s.d.r.c.RepositoryConfigurationExtensionSupport-Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.beyond.ordersystem.product.repository.ProductRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+2025-08-217 15:28 o.s.d.r.c.RepositoryConfigurationDelegate-Finished Spring Data repository scanning in 3 ms. Found 0 Redis repository interfaces.
+2025-08-217 15:28 o.s.b.w.e.tomcat.TomcatWebServer-Tomcat initialized with port 8080 (http)
+2025-08-217 15:28 o.a.coyote.http11.Http11NioProtocol-Initializing ProtocolHandler ["http-nio-8080"]
+2025-08-217 15:28 o.a.catalina.core.StandardService-Starting service [Tomcat]
+2025-08-217 15:28 o.a.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/10.1.43]
+2025-08-217 15:28 o.a.c.c.C.[Tomcat].[localhost].[/]-Initializing Spring embedded WebApplicationContext
+2025-08-217 15:28 o.s.b.w.s.c.ServletWebServerApplicationContext-Root WebApplicationContext: initialization completed in 788 ms
+2025-08-217 15:28 o.h.jpa.internal.util.LogHelper-HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-08-217 15:28 org.hibernate.Version-HHH000412: Hibernate ORM core version 6.6.22.Final
+2025-08-217 15:28 o.h.c.i.RegionFactoryInitiator-HHH000026: Second-level cache disabled
+2025-08-217 15:28 o.s.o.j.p.SpringPersistenceUnitInfo-No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-08-217 15:28 com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Starting...
+2025-08-217 15:28 com.zaxxer.hikari.pool.HikariPool-HikariPool-1 - Added connection org.mariadb.jdbc.Connection@45d38165
+2025-08-217 15:28 com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Start completed.
+2025-08-217 15:28 org.hibernate.orm.deprecation-HHH90000025: MariaDBDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-08-217 15:28 o.hibernate.orm.connections.pooling-HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 11.8.2
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-08-217 15:28 o.h.e.t.j.p.i.JtaPlatformInitiator-HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-08-217 15:28 o.s.o.j.LocalContainerEntityManagerFactoryBean-Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-08-217 15:28 o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration-spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-08-217 15:28 o.s.b.a.s.s.UserDetailsServiceAutoConfiguration-
+
+Using generated security password: 22dad4cc-dded-496c-bb2e-5255e4dede5e
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2025-08-217 15:28 o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer-Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+2025-08-217 15:28 o.a.coyote.http11.Http11NioProtocol-Starting ProtocolHandler ["http-nio-8080"]
+2025-08-217 15:28 o.s.b.w.e.tomcat.TomcatWebServer-Tomcat started on port 8080 (http) with context path '/'
+2025-08-217 15:28 o.s.a.r.c.CachingConnectionFactory-Attempting to connect to: localhost:5672
+2025-08-217 15:28 o.s.a.r.c.CachingConnectionFactory-Created new connection: connectionFactory#4163f505:0/SimpleConnection@4fb5adb8 [delegate=amqp://guest@127.0.0.1:5672/, localPort=64375]
+2025-08-217 15:28 c.b.o.OrdersystemApplication-Started OrdersystemApplication in 3.259 seconds (process running for 3.491)
+2025-08-217 15:29 o.s.a.r.l.SimpleMessageListenerContainer-Waiting for workers to finish.
+2025-08-217 15:29 o.s.a.r.l.SimpleMessageListenerContainer-Successfully waited for workers to finish.
+2025-08-217 15:29 o.s.b.w.e.tomcat.GracefulShutdown-Commencing graceful shutdown. Waiting for active requests to complete
+2025-08-217 15:29 o.s.b.w.e.tomcat.GracefulShutdown-Graceful shutdown complete
+2025-08-217 15:29 o.s.o.j.LocalContainerEntityManagerFactoryBean-Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-08-217 15:29 com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Shutdown initiated...
+2025-08-217 15:29 com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Shutdown completed.
+2025-08-217 15:29 o.h.validator.internal.util.Version-HV000001: Hibernate Validator 8.0.2.Final
+2025-08-217 15:29 c.b.o.OrdersystemApplication-Starting OrdersystemApplication using Java 17.0.15 with PID 35022 (/Users/eunsung/Documents/Hanwah_Beyond_16/Spring/ordersystem/build/classes/java/main started by eunsung in /Users/eunsung/Documents/Hanwah_Beyond_16/Spring/ordersystem)
+2025-08-217 15:29 c.b.o.OrdersystemApplication-The following 1 profile is active: "prod"
+2025-08-217 15:29 o.s.d.r.c.RepositoryConfigurationDelegate-Multiple Spring Data modules found, entering strict repository configuration mode
+2025-08-217 15:29 o.s.d.r.c.RepositoryConfigurationDelegate-Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-08-217 15:29 o.s.d.r.c.RepositoryConfigurationDelegate-Finished Spring Data repository scanning in 91 ms. Found 4 JPA repository interfaces.
+2025-08-217 15:29 o.s.d.r.c.RepositoryConfigurationDelegate-Multiple Spring Data modules found, entering strict repository configuration mode
+2025-08-217 15:29 o.s.d.r.c.RepositoryConfigurationDelegate-Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2025-08-217 15:29 o.s.d.r.c.RepositoryConfigurationExtensionSupport-Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.beyond.ordersystem.member.repository.MemberRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+2025-08-217 15:29 o.s.d.r.c.RepositoryConfigurationExtensionSupport-Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.beyond.ordersystem.ordering.repository.OrderingDetailRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+2025-08-217 15:29 o.s.d.r.c.RepositoryConfigurationExtensionSupport-Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.beyond.ordersystem.ordering.repository.OrderingRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+2025-08-217 15:29 o.s.d.r.c.RepositoryConfigurationExtensionSupport-Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.beyond.ordersystem.product.repository.ProductRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+2025-08-217 15:29 o.s.d.r.c.RepositoryConfigurationDelegate-Finished Spring Data repository scanning in 7 ms. Found 0 Redis repository interfaces.
+2025-08-217 15:29 o.s.b.w.e.tomcat.TomcatWebServer-Tomcat initialized with port 8080 (http)
+2025-08-217 15:29 o.a.coyote.http11.Http11NioProtocol-Initializing ProtocolHandler ["http-nio-8080"]
+2025-08-217 15:29 o.a.catalina.core.StandardService-Starting service [Tomcat]
+2025-08-217 15:29 o.a.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/10.1.43]
+2025-08-217 15:29 o.a.c.c.C.[Tomcat].[localhost].[/]-Initializing Spring embedded WebApplicationContext
+2025-08-217 15:29 o.s.b.w.s.c.ServletWebServerApplicationContext-Root WebApplicationContext: initialization completed in 1291 ms
+2025-08-217 15:29 o.h.jpa.internal.util.LogHelper-HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-08-217 15:29 org.hibernate.Version-HHH000412: Hibernate ORM core version 6.6.22.Final
+2025-08-217 15:29 o.h.c.i.RegionFactoryInitiator-HHH000026: Second-level cache disabled
+2025-08-217 15:29 o.s.o.j.p.SpringPersistenceUnitInfo-No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-08-217 15:29 com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Starting...
+2025-08-217 15:29 com.zaxxer.hikari.pool.HikariPool-HikariPool-1 - Added connection org.mariadb.jdbc.Connection@312819ae
+2025-08-217 15:29 com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Start completed.
+2025-08-217 15:29 org.hibernate.orm.deprecation-HHH90000025: MariaDBDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-08-217 15:29 o.hibernate.orm.connections.pooling-HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 11.8.2
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-08-217 15:29 o.h.e.t.j.p.i.JtaPlatformInitiator-HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-08-217 15:29 o.s.o.j.LocalContainerEntityManagerFactoryBean-Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-08-217 15:29 o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration-spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-08-217 15:29 o.s.b.a.s.s.UserDetailsServiceAutoConfiguration-
+
+Using generated security password: b69334a4-82e8-44d5-a97a-cb5421dc7e6c
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2025-08-217 15:29 o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer-Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+2025-08-217 15:29 o.s.b.w.e.tomcat.TomcatWebServer-Tomcat started on port 8080 (http) with context path '/'
+2025-08-217 15:29 o.s.a.r.c.CachingConnectionFactory-Attempting to connect to: localhost:5672
+2025-08-217 15:29 o.s.a.r.c.CachingConnectionFactory-Created new connection: connectionFactory#1872a7fe:0/SimpleConnection@e646b14 [delegate=amqp://guest@127.0.0.1:5672/, localPort=64528]
+2025-08-217 15:29 c.b.o.OrdersystemApplication-Started OrdersystemApplication in 4.755 seconds (process running for 5.129)
+2025-08-217 15:29 o.s.a.r.l.SimpleMessageListenerContainer-Waiting for workers to finish.
+2025-08-217 15:29 o.s.a.r.l.SimpleMessageListenerContainer-Successfully waited for workers to finish.
+2025-08-217 15:29 o.s.b.w.e.tomcat.GracefulShutdown-Commencing graceful shutdown. Waiting for active requests to complete
+2025-08-217 15:29 o.s.b.w.e.tomcat.GracefulShutdown-Graceful shutdown complete
+2025-08-217 15:29 o.s.o.j.LocalContainerEntityManagerFactoryBean-Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-08-217 15:29 com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Shutdown initiated...
+2025-08-217 15:29 com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Shutdown completed.
+2025-08-217 15:29 o.h.validator.internal.util.Version-HV000001: Hibernate Validator 8.0.2.Final
+2025-08-217 15:29 c.b.o.OrdersystemApplication-Starting OrdersystemApplication using Java 17.0.15 with PID 35039 (/Users/eunsung/Documents/Hanwah_Beyond_16/Spring/ordersystem/build/classes/java/main started by eunsung in /Users/eunsung/Documents/Hanwah_Beyond_16/Spring/ordersystem)
+2025-08-217 15:29 c.b.o.OrdersystemApplication-The following 1 profile is active: "prod"
+2025-08-217 15:29 o.s.d.r.c.RepositoryConfigurationDelegate-Multiple Spring Data modules found, entering strict repository configuration mode
+2025-08-217 15:29 o.s.d.r.c.RepositoryConfigurationDelegate-Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-08-217 15:29 o.s.d.r.c.RepositoryConfigurationDelegate-Finished Spring Data repository scanning in 68 ms. Found 4 JPA repository interfaces.
+2025-08-217 15:29 o.s.d.r.c.RepositoryConfigurationDelegate-Multiple Spring Data modules found, entering strict repository configuration mode
+2025-08-217 15:29 o.s.d.r.c.RepositoryConfigurationDelegate-Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2025-08-217 15:29 o.s.d.r.c.RepositoryConfigurationExtensionSupport-Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.beyond.ordersystem.member.repository.MemberRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+2025-08-217 15:29 o.s.d.r.c.RepositoryConfigurationExtensionSupport-Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.beyond.ordersystem.ordering.repository.OrderingDetailRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+2025-08-217 15:29 o.s.d.r.c.RepositoryConfigurationExtensionSupport-Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.beyond.ordersystem.ordering.repository.OrderingRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+2025-08-217 15:29 o.s.d.r.c.RepositoryConfigurationExtensionSupport-Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.beyond.ordersystem.product.repository.ProductRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+2025-08-217 15:29 o.s.d.r.c.RepositoryConfigurationDelegate-Finished Spring Data repository scanning in 3 ms. Found 0 Redis repository interfaces.
+2025-08-217 15:29 o.s.b.w.e.tomcat.TomcatWebServer-Tomcat initialized with port 8080 (http)
+2025-08-217 15:29 o.a.coyote.http11.Http11NioProtocol-Initializing ProtocolHandler ["http-nio-8080"]
+2025-08-217 15:29 o.a.catalina.core.StandardService-Starting service [Tomcat]
+2025-08-217 15:29 o.a.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/10.1.43]
+2025-08-217 15:29 o.a.c.c.C.[Tomcat].[localhost].[/]-Initializing Spring embedded WebApplicationContext
+2025-08-217 15:29 o.s.b.w.s.c.ServletWebServerApplicationContext-Root WebApplicationContext: initialization completed in 716 ms
+2025-08-217 15:29 o.h.jpa.internal.util.LogHelper-HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-08-217 15:29 org.hibernate.Version-HHH000412: Hibernate ORM core version 6.6.22.Final
+2025-08-217 15:29 o.h.c.i.RegionFactoryInitiator-HHH000026: Second-level cache disabled
+2025-08-217 15:29 o.s.o.j.p.SpringPersistenceUnitInfo-No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-08-217 15:29 com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Starting...
+2025-08-217 15:29 com.zaxxer.hikari.pool.HikariPool-HikariPool-1 - Added connection org.mariadb.jdbc.Connection@54bc3bcf
+2025-08-217 15:29 com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Start completed.
+2025-08-217 15:29 org.hibernate.orm.deprecation-HHH90000025: MariaDBDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-08-217 15:29 o.hibernate.orm.connections.pooling-HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 11.8.2
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-08-217 15:29 o.h.e.t.j.p.i.JtaPlatformInitiator-HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-08-217 15:29 o.s.o.j.LocalContainerEntityManagerFactoryBean-Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-08-217 15:29 o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration-spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-08-217 15:29 o.s.b.a.s.s.UserDetailsServiceAutoConfiguration-
+
+Using generated security password: 67269e04-6094-4017-8201-505655d88f2e
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2025-08-217 15:29 o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer-Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+2025-08-217 15:29 o.a.coyote.http11.Http11NioProtocol-Starting ProtocolHandler ["http-nio-8080"]
+2025-08-217 15:29 o.s.b.w.e.tomcat.TomcatWebServer-Tomcat started on port 8080 (http) with context path '/'
+2025-08-217 15:29 o.s.a.r.c.CachingConnectionFactory-Attempting to connect to: localhost:5672
+2025-08-217 15:29 o.s.a.r.c.CachingConnectionFactory-Created new connection: connectionFactory#3681c285:0/SimpleConnection@48405f04 [delegate=amqp://guest@127.0.0.1:5672/, localPort=64595]
+2025-08-217 15:29 c.b.o.OrdersystemApplication-Started OrdersystemApplication in 3.074 seconds (process running for 3.408)
+2025-08-217 15:29 o.a.c.c.C.[Tomcat].[localhost].[/]-Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-08-217 15:29 o.s.web.servlet.DispatcherServlet-Initializing Servlet 'dispatcherServlet'
+2025-08-217 15:29 o.s.web.servlet.DispatcherServlet-Completed initialization in 1 ms
+2025-08-217 15:29 o.m.jdbc.message.server.ErrorPacket-Error: 1020-HY000: Record has changed since last read in table 'order_detail'
+2025-08-217 15:29 o.m.jdbc.message.server.ErrorPacket-Error: 1020-HY000: Record has changed since last read in table 'order_detail'
+2025-08-217 15:29 o.h.e.jdbc.spi.SqlExceptionHelper-SQL Error: 1020, SQLState: HY000
+2025-08-217 15:29 o.h.e.jdbc.spi.SqlExceptionHelper-SQL Error: 1020, SQLState: HY000
+2025-08-217 15:29 o.h.e.jdbc.spi.SqlExceptionHelper-(conn=3997) Record has changed since last read in table 'order_detail'
+2025-08-217 15:29 o.h.e.jdbc.spi.SqlExceptionHelper-(conn=3995) Record has changed since last read in table 'order_detail'
+2025-08-217 15:29 o.m.jdbc.message.server.ErrorPacket-Error: 1020-HY000: Record has changed since last read in table 'order_detail'
+2025-08-217 15:29 o.h.e.jdbc.spi.SqlExceptionHelper-SQL Error: 1020, SQLState: HY000
+2025-08-217 15:29 o.h.e.jdbc.spi.SqlExceptionHelper-(conn=3996) Record has changed since last read in table 'order_detail'
+2025-08-217 15:29 o.m.jdbc.message.server.ErrorPacket-Error: 1020-HY000: Record has changed since last read in table 'order_detail'
+2025-08-217 15:29 o.h.e.jdbc.spi.SqlExceptionHelper-SQL Error: 1020, SQLState: HY000
+2025-08-217 15:29 o.h.e.jdbc.spi.SqlExceptionHelper-(conn=3995) Record has changed since last read in table 'order_detail'
+2025-08-217 15:29 o.m.jdbc.message.server.ErrorPacket-Error: 1020-HY000: Record has changed since last read in table 'order_detail'
+2025-08-217 15:29 o.h.e.jdbc.spi.SqlExceptionHelper-SQL Error: 1020, SQLState: HY000
+2025-08-217 15:29 o.h.e.jdbc.spi.SqlExceptionHelper-(conn=3996) Record has changed since last read in table 'order_detail'
+2025-08-217 15:29 o.m.jdbc.message.server.ErrorPacket-Error: 1020-HY000: Record has changed since last read in table 'order_detail'
+2025-08-217 15:29 o.h.e.jdbc.spi.SqlExceptionHelper-SQL Error: 1020, SQLState: HY000
+2025-08-217 15:29 o.h.e.jdbc.spi.SqlExceptionHelper-(conn=3995) Record has changed since last read in table 'order_detail'
+2025-08-217 15:29 o.m.jdbc.message.server.ErrorPacket-Error: 1020-HY000: Record has changed since last read in table 'order_detail'
+2025-08-217 15:29 o.h.e.jdbc.spi.SqlExceptionHelper-SQL Error: 1020, SQLState: HY000
+2025-08-217 15:29 o.h.e.jdbc.spi.SqlExceptionHelper-(conn=4004) Record has changed since last read in table 'order_detail'
+2025-08-217 15:29 o.m.jdbc.message.server.ErrorPacket-Error: 1020-HY000: Record has changed since last read in table 'order_detail'
+2025-08-217 15:29 o.h.e.jdbc.spi.SqlExceptionHelper-SQL Error: 1020, SQLState: HY000
+2025-08-217 15:29 o.h.e.jdbc.spi.SqlExceptionHelper-(conn=4000) Record has changed since last read in table 'order_detail'
+2025-08-217 15:29 o.m.jdbc.message.server.ErrorPacket-Error: 1020-HY000: Record has changed since last read in table 'order_detail'
+2025-08-217 15:29 o.h.e.jdbc.spi.SqlExceptionHelper-SQL Error: 1020, SQLState: HY000
+2025-08-217 15:29 o.h.e.jdbc.spi.SqlExceptionHelper-(conn=4002) Record has changed since last read in table 'order_detail'
+2025-08-217 15:29 o.m.jdbc.message.server.ErrorPacket-Error: 1020-HY000: Record has changed since last read in table 'order_detail'
+2025-08-217 15:29 o.h.e.jdbc.spi.SqlExceptionHelper-SQL Error: 1020, SQLState: HY000
+2025-08-217 15:29 o.h.e.jdbc.spi.SqlExceptionHelper-(conn=3999) Record has changed since last read in table 'order_detail'
+2025-08-217 15:29 o.m.jdbc.message.server.ErrorPacket-Error: 1020-HY000: Record has changed since last read in table 'order_detail'
+2025-08-217 15:29 o.h.e.jdbc.spi.SqlExceptionHelper-SQL Error: 1020, SQLState: HY000
+2025-08-217 15:29 o.h.e.jdbc.spi.SqlExceptionHelper-(conn=4003) Record has changed since last read in table 'order_detail'
+2025-08-217 15:29 o.m.jdbc.message.server.ErrorPacket-Error: 1020-HY000: Record has changed since last read in table 'order_detail'
+2025-08-217 15:29 o.h.e.jdbc.spi.SqlExceptionHelper-SQL Error: 1020, SQLState: HY000
+2025-08-217 15:29 o.h.e.jdbc.spi.SqlExceptionHelper-(conn=3997) Record has changed since last read in table 'order_detail'
+2025-08-217 15:29 o.m.jdbc.message.server.ErrorPacket-Error: 1020-HY000: Record has changed since last read in table 'order_detail'
+2025-08-217 15:29 o.h.e.jdbc.spi.SqlExceptionHelper-SQL Error: 1020, SQLState: HY000
+2025-08-217 15:29 o.h.e.jdbc.spi.SqlExceptionHelper-(conn=3996) Record has changed since last read in table 'order_detail'
+2025-08-217 15:29 o.m.jdbc.message.server.ErrorPacket-Error: 1020-HY000: Record has changed since last read in table 'order_detail'
+2025-08-217 15:29 o.h.e.jdbc.spi.SqlExceptionHelper-SQL Error: 1020, SQLState: HY000
+2025-08-217 15:29 o.h.e.jdbc.spi.SqlExceptionHelper-(conn=4000) Record has changed since last read in table 'order_detail'
+2025-08-217 15:29 o.m.jdbc.message.server.ErrorPacket-Error: 1020-HY000: Record has changed since last read in table 'order_detail'
+2025-08-217 15:29 o.h.e.jdbc.spi.SqlExceptionHelper-SQL Error: 1020, SQLState: HY000
+2025-08-217 15:29 o.h.e.jdbc.spi.SqlExceptionHelper-(conn=3999) Record has changed since last read in table 'order_detail'
+2025-08-217 15:29 o.m.jdbc.message.server.ErrorPacket-Error: 1020-HY000: Record has changed since last read in table 'order_detail'
+2025-08-217 15:29 o.h.e.jdbc.spi.SqlExceptionHelper-SQL Error: 1020, SQLState: HY000
+2025-08-217 15:29 o.h.e.jdbc.spi.SqlExceptionHelper-(conn=3995) Record has changed since last read in table 'order_detail'
+2025-08-217 15:29 o.m.jdbc.message.server.ErrorPacket-Error: 1020-HY000: Record has changed since last read in table 'order_detail'
+2025-08-217 15:29 o.h.e.jdbc.spi.SqlExceptionHelper-SQL Error: 1020, SQLState: HY000
+2025-08-217 15:29 o.h.e.jdbc.spi.SqlExceptionHelper-(conn=3995) Record has changed since last read in table 'order_detail'
+2025-08-217 15:29 o.m.jdbc.message.server.ErrorPacket-Error: 1020-HY000: Record has changed since last read in table 'order_detail'
+2025-08-217 15:29 o.h.e.jdbc.spi.SqlExceptionHelper-SQL Error: 1020, SQLState: HY000
+2025-08-217 15:29 o.h.e.jdbc.spi.SqlExceptionHelper-(conn=3996) Record has changed since last read in table 'order_detail'
+2025-08-217 15:29 o.m.jdbc.message.server.ErrorPacket-Error: 1020-HY000: Record has changed since last read in table 'order_detail'
+2025-08-217 15:29 o.h.e.jdbc.spi.SqlExceptionHelper-SQL Error: 1020, SQLState: HY000
+2025-08-217 15:29 o.h.e.jdbc.spi.SqlExceptionHelper-(conn=4002) Record has changed since last read in table 'order_detail'
+2025-08-217 15:29 o.m.jdbc.message.server.ErrorPacket-Error: 1020-HY000: Record has changed since last read in table 'order_detail'
+2025-08-217 15:29 o.h.e.jdbc.spi.SqlExceptionHelper-SQL Error: 1020, SQLState: HY000
+2025-08-217 15:29 o.h.e.jdbc.spi.SqlExceptionHelper-(conn=3995) Record has changed since last read in table 'order_detail'
+2025-08-217 15:29 o.m.jdbc.message.server.ErrorPacket-Error: 1020-HY000: Record has changed since last read in table 'order_detail'
+2025-08-217 15:29 o.h.e.jdbc.spi.SqlExceptionHelper-SQL Error: 1020, SQLState: HY000
+2025-08-217 15:29 o.h.e.jdbc.spi.SqlExceptionHelper-(conn=3996) Record has changed since last read in table 'order_detail'
+2025-08-217 15:29 o.m.jdbc.message.server.ErrorPacket-Error: 1020-HY000: Record has changed since last read in table 'order_detail'
+2025-08-217 15:29 o.h.e.jdbc.spi.SqlExceptionHelper-SQL Error: 1020, SQLState: HY000
+2025-08-217 15:29 o.h.e.jdbc.spi.SqlExceptionHelper-(conn=3995) Record has changed since last read in table 'order_detail'
+2025-08-217 15:29 o.m.jdbc.message.server.ErrorPacket-Error: 1020-HY000: Record has changed since last read in table 'order_detail'
+2025-08-217 15:29 o.h.e.jdbc.spi.SqlExceptionHelper-SQL Error: 1020, SQLState: HY000
+2025-08-217 15:29 o.h.e.jdbc.spi.SqlExceptionHelper-(conn=3999) Record has changed since last read in table 'order_detail'
+2025-08-217 15:29 o.m.jdbc.message.server.ErrorPacket-Error: 1020-HY000: Record has changed since last read in table 'order_detail'
+2025-08-217 15:29 o.h.e.jdbc.spi.SqlExceptionHelper-SQL Error: 1020, SQLState: HY000
+2025-08-217 15:29 o.h.e.jdbc.spi.SqlExceptionHelper-(conn=3995) Record has changed since last read in table 'order_detail'
+2025-08-217 15:29 o.m.jdbc.message.server.ErrorPacket-Error: 1020-HY000: Record has changed since last read in table 'order_detail'
+2025-08-217 15:29 o.h.e.jdbc.spi.SqlExceptionHelper-SQL Error: 1020, SQLState: HY000
+2025-08-217 15:29 o.h.e.jdbc.spi.SqlExceptionHelper-(conn=4000) Record has changed since last read in table 'order_detail'
+2025-08-217 15:29 o.m.jdbc.message.server.ErrorPacket-Error: 1020-HY000: Record has changed since last read in table 'order_detail'
+2025-08-217 15:29 o.h.e.jdbc.spi.SqlExceptionHelper-SQL Error: 1020, SQLState: HY000
+2025-08-217 15:29 o.h.e.jdbc.spi.SqlExceptionHelper-(conn=3995) Record has changed since last read in table 'order_detail'
+2025-08-217 15:29 o.m.jdbc.message.server.ErrorPacket-Error: 1020-HY000: Record has changed since last read in table 'order_detail'
+2025-08-217 15:29 o.m.jdbc.message.server.ErrorPacket-Error: 1020-HY000: Record has changed since last read in table 'order_detail'
+2025-08-217 15:29 o.h.e.jdbc.spi.SqlExceptionHelper-SQL Error: 1020, SQLState: HY000
+2025-08-217 15:29 o.h.e.jdbc.spi.SqlExceptionHelper-(conn=3995) Record has changed since last read in table 'order_detail'
+2025-08-217 15:29 o.h.e.jdbc.spi.SqlExceptionHelper-SQL Error: 1020, SQLState: HY000
+2025-08-217 15:29 o.h.e.jdbc.spi.SqlExceptionHelper-(conn=4003) Record has changed since last read in table 'order_detail'
+2025-08-217 15:29 o.m.jdbc.message.server.ErrorPacket-Error: 1020-HY000: Record has changed since last read in table 'order_detail'
+2025-08-217 15:29 o.h.e.jdbc.spi.SqlExceptionHelper-SQL Error: 1020, SQLState: HY000
+2025-08-217 15:29 o.h.e.jdbc.spi.SqlExceptionHelper-(conn=3996) Record has changed since last read in table 'order_detail'
+2025-08-217 15:29 o.m.jdbc.message.server.ErrorPacket-Error: 1020-HY000: Record has changed since last read in table 'order_detail'
+2025-08-217 15:29 o.h.e.jdbc.spi.SqlExceptionHelper-SQL Error: 1020, SQLState: HY000
+2025-08-217 15:29 o.h.e.jdbc.spi.SqlExceptionHelper-(conn=3999) Record has changed since last read in table 'order_detail'
+2025-08-217 15:29 o.m.jdbc.message.server.ErrorPacket-Error: 1020-HY000: Record has changed since last read in table 'order_detail'
+2025-08-217 15:29 o.h.e.jdbc.spi.SqlExceptionHelper-SQL Error: 1020, SQLState: HY000
+2025-08-217 15:29 o.h.e.jdbc.spi.SqlExceptionHelper-(conn=3998) Record has changed since last read in table 'order_detail'
+2025-08-217 15:29 o.m.jdbc.message.server.ErrorPacket-Error: 1020-HY000: Record has changed since last read in table 'order_detail'
+2025-08-217 15:29 o.h.e.jdbc.spi.SqlExceptionHelper-SQL Error: 1020, SQLState: HY000
+2025-08-217 15:29 o.h.e.jdbc.spi.SqlExceptionHelper-(conn=3998) Record has changed since last read in table 'order_detail'
+2025-08-217 15:30 o.s.a.r.l.SimpleMessageListenerContainer-Waiting for workers to finish.
+2025-08-217 15:30 o.s.a.r.l.SimpleMessageListenerContainer-Successfully waited for workers to finish.
+2025-08-217 15:30 o.s.b.w.e.tomcat.GracefulShutdown-Commencing graceful shutdown. Waiting for active requests to complete
+2025-08-217 15:30 o.s.b.w.e.tomcat.GracefulShutdown-Graceful shutdown complete
+2025-08-217 15:30 o.s.o.j.LocalContainerEntityManagerFactoryBean-Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-08-217 15:30 com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Shutdown initiated...
+2025-08-217 15:30 com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Shutdown completed.
+2025-08-217 15:30 o.h.validator.internal.util.Version-HV000001: Hibernate Validator 8.0.2.Final
+2025-08-217 15:30 c.b.o.OrdersystemApplication-Starting OrdersystemApplication using Java 17.0.15 with PID 35082 (/Users/eunsung/Documents/Hanwah_Beyond_16/Spring/ordersystem/build/classes/java/main started by eunsung in /Users/eunsung/Documents/Hanwah_Beyond_16/Spring/ordersystem)
+2025-08-217 15:30 c.b.o.OrdersystemApplication-The following 1 profile is active: "prod"
+2025-08-217 15:30 o.s.d.r.c.RepositoryConfigurationDelegate-Multiple Spring Data modules found, entering strict repository configuration mode
+2025-08-217 15:30 o.s.d.r.c.RepositoryConfigurationDelegate-Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-08-217 15:30 o.s.d.r.c.RepositoryConfigurationDelegate-Finished Spring Data repository scanning in 65 ms. Found 4 JPA repository interfaces.
+2025-08-217 15:30 o.s.d.r.c.RepositoryConfigurationDelegate-Multiple Spring Data modules found, entering strict repository configuration mode
+2025-08-217 15:30 o.s.d.r.c.RepositoryConfigurationDelegate-Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2025-08-217 15:30 o.s.d.r.c.RepositoryConfigurationExtensionSupport-Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.beyond.ordersystem.member.repository.MemberRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+2025-08-217 15:30 o.s.d.r.c.RepositoryConfigurationExtensionSupport-Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.beyond.ordersystem.ordering.repository.OrderingDetailRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+2025-08-217 15:30 o.s.d.r.c.RepositoryConfigurationExtensionSupport-Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.beyond.ordersystem.ordering.repository.OrderingRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+2025-08-217 15:30 o.s.d.r.c.RepositoryConfigurationExtensionSupport-Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.beyond.ordersystem.product.repository.ProductRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+2025-08-217 15:30 o.s.d.r.c.RepositoryConfigurationDelegate-Finished Spring Data repository scanning in 3 ms. Found 0 Redis repository interfaces.
+2025-08-217 15:30 o.s.b.w.e.tomcat.TomcatWebServer-Tomcat initialized with port 8080 (http)
+2025-08-217 15:30 o.a.coyote.http11.Http11NioProtocol-Initializing ProtocolHandler ["http-nio-8080"]
+2025-08-217 15:30 o.a.catalina.core.StandardService-Starting service [Tomcat]
+2025-08-217 15:30 o.a.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/10.1.43]
+2025-08-217 15:30 o.a.c.c.C.[Tomcat].[localhost].[/]-Initializing Spring embedded WebApplicationContext
+2025-08-217 15:30 o.s.b.w.s.c.ServletWebServerApplicationContext-Root WebApplicationContext: initialization completed in 671 ms
+2025-08-217 15:30 o.h.jpa.internal.util.LogHelper-HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-08-217 15:30 org.hibernate.Version-HHH000412: Hibernate ORM core version 6.6.22.Final
+2025-08-217 15:30 o.h.c.i.RegionFactoryInitiator-HHH000026: Second-level cache disabled
+2025-08-217 15:30 o.s.o.j.p.SpringPersistenceUnitInfo-No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-08-217 15:30 com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Starting...
+2025-08-217 15:30 com.zaxxer.hikari.pool.HikariPool-HikariPool-1 - Added connection org.mariadb.jdbc.Connection@45d38165
+2025-08-217 15:30 com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Start completed.
+2025-08-217 15:30 org.hibernate.orm.deprecation-HHH90000025: MariaDBDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-08-217 15:30 o.hibernate.orm.connections.pooling-HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 11.8.2
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-08-217 15:30 o.h.e.t.j.p.i.JtaPlatformInitiator-HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-08-217 15:30 o.s.o.j.LocalContainerEntityManagerFactoryBean-Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-08-217 15:30 o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration-spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-08-217 15:30 o.s.b.a.s.s.UserDetailsServiceAutoConfiguration-
+
+Using generated security password: 64ff25b3-342b-47bb-b637-257de3a2355b
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2025-08-217 15:30 o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer-Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+2025-08-217 15:30 o.a.coyote.http11.Http11NioProtocol-Starting ProtocolHandler ["http-nio-8080"]
+2025-08-217 15:30 o.s.b.w.e.tomcat.TomcatWebServer-Tomcat started on port 8080 (http) with context path '/'
+2025-08-217 15:30 o.s.a.r.c.CachingConnectionFactory-Attempting to connect to: localhost:5672
+2025-08-217 15:30 o.s.a.r.c.CachingConnectionFactory-Created new connection: connectionFactory#4163f505:0/SimpleConnection@4fb5adb8 [delegate=amqp://guest@127.0.0.1:5672/, localPort=64877]
+2025-08-217 15:30 c.b.o.OrdersystemApplication-Started OrdersystemApplication in 3.028 seconds (process running for 3.23)
+2025-08-217 15:31 o.a.c.c.C.[Tomcat].[localhost].[/]-Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-08-217 15:31 o.s.web.servlet.DispatcherServlet-Initializing Servlet 'dispatcherServlet'
+2025-08-217 15:31 o.s.web.servlet.DispatcherServlet-Completed initialization in 13 ms
+2025-08-217 15:31 o.s.a.r.l.SimpleMessageListenerContainer-Waiting for workers to finish.
+2025-08-217 15:31 o.s.a.r.l.SimpleMessageListenerContainer-Successfully waited for workers to finish.
+2025-08-217 15:31 o.s.b.w.e.tomcat.GracefulShutdown-Commencing graceful shutdown. Waiting for active requests to complete
+2025-08-217 15:31 o.s.b.w.e.tomcat.GracefulShutdown-Graceful shutdown complete
+2025-08-217 15:31 o.s.o.j.LocalContainerEntityManagerFactoryBean-Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-08-217 15:31 com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Shutdown initiated...
+2025-08-217 15:31 com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Shutdown completed.
